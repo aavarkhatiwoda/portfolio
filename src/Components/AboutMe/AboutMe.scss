@@ -1,0 +1,34 @@
+@import '../Styles/Colors';
+
+.aboutme {
+  width: 100vw;
+}
+.aboutme_c {
+  margin: 10vh 10vw;
+}
+.aboutme_c_col {
+  display: grid;
+}
+.aboutme_c_col_title {
+    justify-content: space-around;
+    display: flex;
+    color: $initial;
+}
+.aboutme_c_col_b {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutme_c_col {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme_c_col {
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
