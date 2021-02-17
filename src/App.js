@@ -1,7 +1,6 @@
-import Landing from './Components/Landing/Landing.js';
-import AboutMe from './Components/AboutMe/AboutMe.js'
-import Footer from './Components/Footer/Footer.js';
-import SectionHeading from './Components/SectionHeading/SectionHeading.js';
+import Landing from './Pages/Landing/Landing.js';
+import AboutMe from './Pages/AboutMe/AboutMe.js'
+import Footer from './Pages/Footer/Footer.js';
 
 function App() {
   return (

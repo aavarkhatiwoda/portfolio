@@ -25,18 +25,9 @@ ul {
 }
 
 .largetext {
-  color: $initial;
+  color: $specialcolor;
 }
-/*
-@media screen and (min-width: 2001px) {
-  .largetext {
-    font-size: $desktop3-largefont;
-  }
-  .smalltext {
-    font-size: $desktop3-smallfont;
-  }
-}
-*/
+
 @media screen and (min-width: 2801px) {
   .largetext {
     font-size: $desktop3-largefont;

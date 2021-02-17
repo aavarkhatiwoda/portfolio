@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.scss';
-import SectionHeading from '../SectionHeading/SectionHeading.js';
+import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 
 /* 'c' is 'container' */
 /* 'col' is 'column' */

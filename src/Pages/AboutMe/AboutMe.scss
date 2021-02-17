@@ -1,4 +1,4 @@
-@import '../Styles/Colors';
+@import '../../Components/Styles/Colors';
 
 .aboutme {
   width: 100vw;
@@ -12,7 +12,7 @@
 .aboutme_c_col_title {
     justify-content: space-around;
     display: flex;
-    color: $initial;
+    color: $specialcolor;
 }
 .aboutme_c_col_b {
     justify-content: space-around;

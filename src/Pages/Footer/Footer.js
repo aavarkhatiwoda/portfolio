@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.scss';
-import Icons from '../Icons/Icons.js';
+import Icons from '../../Components/Icons/Icons.js';
 
 
 function Footer() {

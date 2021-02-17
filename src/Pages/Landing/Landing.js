@@ -1,7 +1,7 @@
 import React from 'react';
 import './Landing.scss';
-import Icons from '../Icons/Icons.js';
-import Heatmap from '../Images/heatmap.svg';
+import Icons from '../../Components/Icons/Icons.js';
+import Heatmap from '../../Components/Images/heatmap.svg';
 
 
 
