@@ -8,7 +8,7 @@ export const ProjectsCarousel = () => {
   const c = [
     {
       name: "Software Engineer Portfolio Website",
-      technologies: ["ReactJS", "JSX", "Sass"],
+      technologies: ["ReactJS", "JSX", "Sass", "Netlify"],
       description: "Continuous Development",
       link: "https://github.com/aavarkhatiwoda/portfolio",
       content: [
@@ -83,7 +83,7 @@ export const ProjectsCarousel = () => {
     },
     {
       name: "Binary Bomb Lab",
-      technologies: ["Assembly", "GDB"],
+      technologies: ["x86 Assembly", "GDB"],
       description: "Computer Organization I, Complete",
       link: "https://cs.vt.edu",
       content: [

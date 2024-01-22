@@ -7,9 +7,9 @@ export const WorkCarousel = () => {
   const c = [
     {
       name: "Virginia Tech",
-      technologies: ["C", "C++"],
+      technologies: ["C++", "C"],
       description: "Undergraduate Research Assistant",
-      description2: "Blacksburg, VA, Jan 2024 - May 2024",
+      description2: "Blacksburg, VA, Jan 2024 - Present",
       link: "https://cs.vt.edu",
       content: [
         "• Undergraduate Research Assistant, Department of Computer Science. More details to be announced soon.",

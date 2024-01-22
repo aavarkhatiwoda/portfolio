@@ -26,7 +26,7 @@ export default function Interests() {
             <div className="newline" />
             My main interests are in backend software engineering with Python
             and Java, as well as in memory management through utilizing C and
-            C++. I also enjoy crafting engaging websites using React. I love
+            C++. I also enjoy crafting engaging websites using ReactJS. I love
             being able to use my skills to achieve real-world results, either by
             myself or with a team.
             <div className="newline" />I was a software engineer intern at{" "}
@@ -57,7 +57,7 @@ export default function Interests() {
             >
               <b>undergraduate research assistant</b>
             </a>{" "}
-            for Spring 2024.
+            for the Spring 2024 term.
             <div className="newline" />
             I'm passionate about teaching, especially in being able to explain
             difficult concepts as simply as possible in layman's terms. I would
@@ -88,15 +88,16 @@ function ShowSkills() {
     "C",
     "x86 & RISC-V Assembly",
     "ReactJS",
+    "JSX",
+    "Sass",
+    "Netlify",
     "Ripes",
     "Rars",
     "Bash",
     "GDB",
-    "JSX",
-    "Sass",
     "Jenkins",
     "JSON",
-    "Groovy/Jenkinsfile Scripts",
+    "Groovy Scripts",
     "Docker",
     "OpenSearch [Suite]",
     "Terminal",

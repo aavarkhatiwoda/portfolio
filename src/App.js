@@ -30,7 +30,7 @@ function Home() {
 
 function RouteToResume() {
   window.location.replace(
-    "https://aavarkhatiwoda.com/static/media/AavarKhatiwoda_SWE_Resume.9f9d48f70f40d6075835.pdf"
+    "https://aavarkhatiwoda.com/static/media/AavarKhatiwoda_SWE_Resume.5be8310aa9fa9e7f962a.pdf"
   );
 }
 
