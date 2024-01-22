@@ -1,0 +1,25 @@
+@import '../../Components/Breakpoints'
+@import '../../Components/Constants'
+@import '../../Components/Colors'
+@import '../../Components/Fonts'
+    
+.carousel_cards
+  padding: 25px
+  transition: $t
+  &:hover
+    background: rgba(white,0.05)
+    .carousel_cards_text
+      color: $fc1
+    .carousel_cards_bp
+      color: $fc1
+  @media screen and (min-width: 769px) and (max-width: 1068px)
+    border: 2px solid green
+    width: 618px
+  @media screen and (min-width: 769px) and (max-width: 768px)
+    width: 334px
+  @media screen and (max-width: 400px)
+    width: 340px
+
+.carousel_cards_bp,
+.carousel_buttons
+  margin-top: 12px

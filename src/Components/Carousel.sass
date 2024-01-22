@@ -1,0 +1,36 @@
+@import './Breakpoints'
+@import './Constants'
+@import './Colors'
+@import './Fonts'
+    
+.carousel_cards
+  padding: $cardp
+  @media screen and (min-width: $ss7min)
+    padding: $cardp_ss7min
+  @media screen and (min-width: $ss3min) and (max-width: $ss3)
+    width: $ss2 - 2*$p4
+  @media screen and (min-width: $ss2min) and (max-width: $ss2)
+    width: calc(100vw - 2*$p3)
+  @media screen and (max-width: $ss1)
+    width: calc(100vw - 2*$p1)
+  &:hover
+    transition: $t
+    background: rgba(white,0.05)
+    .carousel_cards_name,
+    .carousel_cards_text
+      color: $fc1
+    .carousel_cards_bp
+      color: $fc1
+
+.carousel_cards_bp,
+.carousel_buttons
+  margin-top: $cardp/2
+
+.carousel_cards_image
+  @media screen and (min-width: $ss7min)
+    height: 80px
+  @media screen and (max-width: $ss6)
+    height: 40px
+  @media screen and (max-width: $ss2)
+    height: 30px
+  

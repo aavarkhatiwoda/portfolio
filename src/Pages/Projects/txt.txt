@@ -1,0 +1,140 @@
+@import '../../Components/Breakpoints'
+@import '../../Components/Constants'
+@import '../../Components/Colors'
+@import '../../Components/Fonts'
+    
+.carousel_cards
+  padding: 25px
+  transition: $t
+  &:hover
+    background: rgba(white,0.05)
+    .carousel_cards_text
+      color: $fc1
+    .carousel_cards_bp
+      color: $fc1
+  width: 583px
+
+
+.carousel_toplevel
+  overflow: hidden
+  display: flex
+  flex-direction: column
+  justify-content: center
+  
+
+.carousel
+  //white-space: nowrap
+  transition: transform 0.3s
+
+
+.carousel_cards_toplevel
+  display: inline-flex
+  align-items: center
+  justify-content: center
+
+
+.carousel_cards_bp,
+.carousel_buttons
+  margin-top: 12px
+
+
+
+.carousel_buttons
+  display: flex
+  justify-content: space-evenly
+
+.carousel_buttons_arrow
+  background: none
+  border: none
+  cursor: pointer
+  color: $fc3
+
+.carousel_buttons_dots
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+.carousel_buttons_dots_b
+  border: none
+  cursor: pointer
+  color: $fc3
+
+.carousel_buttons_dots > button
+  background: none
+
+.indicator-symbol-active
+  color: $fc1
+
+
+
+
+_______________
+
+
+
+
+@import '../../Components/Breakpoints'
+@import '../../Components/Constants'
+@import '../../Components/Colors'
+@import '../../Components/Fonts'
+    
+.carousel_cards
+  padding: 25px
+  transition: $t
+  &:hover
+    background: rgba(white,0.05)
+    .carousel_cards_text
+      color: $fc1
+    .carousel_cards_bp
+      color: $fc1
+
+
+.carousel_toplevel
+  overflow: hidden
+  display: flex
+  flex-direction: column
+  justify-content: center
+  
+
+.carousel
+  white-space: nowrap
+  transition: transform 0.3s
+
+
+.carousel_cards_toplevel
+  display: inline-flex
+  align-items: center
+  justify-content: center
+
+
+.carousel_cards_bp,
+.carousel_buttons
+  margin-top: 12px
+
+
+
+.carousel_buttons
+  display: flex
+  justify-content: space-evenly
+
+.carousel_buttons_arrow
+  background: none
+  border: none
+  cursor: pointer
+  color: $fc3
+
+.carousel_buttons_dots
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+.carousel_buttons_dots_b
+  border: none
+  cursor: pointer
+  color: $fc3
+
+.carousel_buttons_dots > button
+  background: none
+
+.indicator-symbol-active
+  color: $fc1
