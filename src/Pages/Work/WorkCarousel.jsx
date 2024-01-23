@@ -22,8 +22,8 @@ export const WorkCarousel = () => {
       description2: "Blacksburg, VA, Aug 2023 - Dec 2023",
       link: "https://cs.vt.edu",
       content: [
-        "• Helped facilitate student understanding and implementation of object-oriented\
-        programming concepts in Java in lab and project coursework.",
+        "• Facilitated student understanding and implementation of object-oriented\
+        programming concepts in lab and project coursework.",
         "• Aided students in building good programming habits through effective planning\
         of task requirements, use of JavaDocs, and commenting.",
       ],
@@ -34,7 +34,7 @@ export const WorkCarousel = () => {
         "Python",
         "Jenkins",
         "JSON",
-        "Groovy/Jenkinsfile Scripts",
+        "Groovy Scripts",
         "Docker",
         "OpenSearch [Suite]",
       ],
@@ -42,15 +42,14 @@ export const WorkCarousel = () => {
       description2: "Baltimore, MD, Jun 2023 - Aug 2023",
       link: "https://www.northropgrumman.com",
       content: [
-        "• Designed Jenkinsfile sequence diagram to document the anticipated flow\
+        "• Designed Jenkinsfile sequence diagrams to document the anticipated flow\
         of Jenkins pipeline data collection and transfer to OpenSearch toward the\
-        end goal of monitoring project health and anticipating build failures\
-        through user-specific data visualization metrics on OpenSearch Dashboards.",
-        "• Identified collection requirements and developed Python scripts to\
-        efficiently retrieve Jenkins pipeline data and store data in\
-        team-created JSON layout. Optimized team’s collection scripts to retrieve\
-        Jenkins pipeline data 30%+ more efficiently than previous versions.",
-        "• Utilized Groovy/Jenkinsfile scripts within Docker to automate\
+        end goal of monitoring project health to better diagnose build failures through\
+        user-specific data visualization metrics on OpenSearch Dashboards.",
+        "• Developed Python scripts to efficiently retrieve critical Jenkins pipeline data,\
+        and stored data in team-created JSON layout. Optimized team’s collection scripts to\
+        retrieve Jenkins pipeline data 30%+ more efficiently than previous versions.",
+        "• Utilized Groovy scripts within Docker to automate\
         data collection and transfer to OpenSearch for project health\
         monitoring.",
         "• Spearheaded planning of weekly tasks of team of 4 through serving\
