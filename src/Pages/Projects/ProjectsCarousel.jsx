@@ -25,7 +25,7 @@ export const ProjectsCarousel = () => {
     {
       name: "Very Articulated Recreational Service [V.A.R.S.]",
       technologies: ["Python", "Google Web Speech API", "BeautifulSoup4"],
-      description: "In Progress",
+      description: "",
       link: "https://github.com/aavarkhatiwoda/vars",
       content: [
         "• Developed J.A.R.V.I.S.-inspired voice assistant to return desired information or go to\
@@ -36,7 +36,7 @@ export const ProjectsCarousel = () => {
     {
       name: "Memory Management System",
       technologies: ["Java"],
-      description: "Data Structures and Algorithms, Complete",
+      description: "Data Structures and Algorithms",
       link: "https://cs.vt.edu",
       content: [
         "• Created a memory management system for storing variable-length records (course\
@@ -57,7 +57,7 @@ export const ProjectsCarousel = () => {
     {
       name: "Quicksort with Buffer Pool",
       technologies: ["Java"],
-      description: "Data Structures and Algorithms, Complete",
+      description: "Data Structures and Algorithms",
       link: "https://cs.vt.edu",
       content: [
         "• Developed program to sort ascii/binary text files through in-memory quicksort mediated\
@@ -72,7 +72,7 @@ export const ProjectsCarousel = () => {
     {
       name: "Artist and Song Graph Project",
       technologies: ["Java"],
-      description: "Data Structures and Algorithms, Complete",
+      description: "Data Structures and Algorithms",
       link: "https://cs.vt.edu",
       content: [
         "• Created a program to track artist and song associativity, and get the number of items\
@@ -86,7 +86,7 @@ export const ProjectsCarousel = () => {
     {
       name: "Binary Bomb Lab",
       technologies: ["x86 Assembly", "GDB"],
-      description: "Computer Organization I, Complete",
+      description: "Computer Organization I",
       link: "https://cs.vt.edu",
       content: [
         "• Completed the Bomb Lab project that required careful observation and navigation of\
@@ -104,7 +104,7 @@ export const ProjectsCarousel = () => {
     {
       name: "Terminal Music Finder & Player for Apple Music",
       technologies: ["Python", "Apple Music [macOS]"],
-      description: "Complete",
+      description: "",
       link: "https://github.com/aavarkhatiwoda/python/blob/main/musicFinder.py",
       content: [
         "• Created terminal program to search downloaded artist libraries to find potential song\
@@ -115,7 +115,7 @@ export const ProjectsCarousel = () => {
     {
       name: "Recursive Sudoku Solver Visualizer",
       technologies: ["Python", "PyGame"],
-      description: "Complete",
+      description: "",
       link: "https://github.com/aavarkhatiwoda/python/blob/main/sudokuSolver.py",
       content: [
         "• Developed backtracking sudoku application with solving process shown through the\

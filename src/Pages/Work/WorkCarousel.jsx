@@ -6,20 +6,21 @@ export const WorkCarousel = () => {
 
   const c = [
     {
-      name: "Virginia Tech",
+      name: "Undergraduate Research Assistant",
       technologies: ["C++", "C"],
-      description: "Undergraduate Research Assistant",
-      description2: "Blacksburg, VA, Jan 2024 - Present",
+      description: "VIRGINIA TECH · CS 4994, Undergraduate Research",
+      description2: "Jan 2024 - Present · Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
-        "• Undergraduate Research Assistant, Department of Computer Science. More details to be announced soon.",
+        "• Undergraduate Research Assistant, Department of Computer Science. More details to be\
+        announced.",
       ],
     },
     {
-      name: "Virginia Tech",
+      name: "Undergraudate Teaching Assistant",
       technologies: ["Java"],
-      description: "Undergraduate Teaching Assistant, CS 1114 - Java",
-      description2: "Blacksburg, VA, Aug 2023 - Dec 2023",
+      description: "VIRGINIA TECH · CS 1114, Introduction to Software Design",
+      description2: "Aug 2023 - Dec 2023 · Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
         "• Facilitated student understanding and implementation of object-oriented\
@@ -29,7 +30,7 @@ export const WorkCarousel = () => {
       ],
     },
     {
-      name: "Northrop Grumman",
+      name: "Software Engineer Intern",
       technologies: [
         "Python",
         "Jenkins",
@@ -38,8 +39,8 @@ export const WorkCarousel = () => {
         "Docker",
         "OpenSearch [Suite]",
       ],
-      description: "Software Engineer Intern, Secret Clearance",
-      description2: "Baltimore, MD, Jun 2023 - Aug 2023",
+      description: "NORTHROP GRUMMAN · Secret Clearance",
+      description2: "Jun 2023 - Aug 2023 · Baltimore, MD",
       link: "https://www.northropgrumman.com",
       content: [
         "• Designed Jenkinsfile sequence diagrams to document the anticipated flow\

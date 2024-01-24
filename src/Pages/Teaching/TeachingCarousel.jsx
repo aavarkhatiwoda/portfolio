@@ -7,25 +7,29 @@ export const TeachingCarousel = () => {
 
   const c = [
     {
-      name: "Mathnasium",
+      name: "Mathematics Tutor",
       technologies: [],
-      description: "Mathematics Tutor",
-      description2: "Falls Church, VA, Oct 2020 - Jun 2021",
+      description: "MATHNASIUM",
+      description2: "Oct 2020 - Jun 2021 · Falls Church, VA",
       link: "https://www.mathnasium.com/fallschurch/schedules",
       content: [
-        "• Tutored 30+ elementary, middle, and high school students core mathematics course topics [through calc I], in addition to SAT/ACT prep.",
-        "• Targeted personalized key areas of improvement, emphasizing experimentation of current topics with previously known material.",
-        "• Helped students reach a higher level of understanding in coursework and advance topics, resulting in higher quiz and test scores post-instruction.",
+        "• Tutored 30+ elementary, middle, and high school students core mathematics course\
+        topics [through calc I], in addition to SAT/ACT prep.",
+        "• Targeted personalized key areas of improvement, emphasizing experimentation of current\
+        topics with previously known material.",
+        "• Helped students reach a higher level of understanding in coursework and advance topics,\
+        resulting in higher quiz and test scores post-instruction.",
       ],
     },
     {
-      name: "STEM exCEL",
+      name: "Python Instructor",
       technologies: [],
-      description: "Python Instructor",
-      description2: "Fairfax, VA, Nov 2019 - Mar 2020",
+      description: "STEM exCEL",
+      description2: "Nov 2019 - Mar 2020 · Fairfax, VA",
       link: "https://stemexcel.org",
       content: [
-        "• Instructed 20+ 4th - 6th grade students Python programming, introducing text-based terminal projects such as random password and unique username generators.",
+        "• Instructed 20+ 4th - 6th grade students Python programming, introducing text-based\
+        terminal projects such as random password and unique username generators.",
       ],
     },
   ];
