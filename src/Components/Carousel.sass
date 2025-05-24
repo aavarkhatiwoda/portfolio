@@ -1,0 +1,73 @@
+@import './Breakpoints'
+@import './Constants'
+@import './Colors'
+@import './Fonts'
+
+.carousel_cards
+  &:hover
+    transition: $t
+    background: rgba($bc1, .75)
+    .carousel_cards_name,
+    .carousel_cards_text
+      color: $fc3
+    .carousel_cards_bp
+      color: $fc2
+
+.carousel_cards_image
+  @media screen and (min-width: $ss7min)
+    height: 80px
+  @media screen and (max-width: $ss6)
+    height: 40px
+  @media screen and (max-width: $ss2)
+    height: 30px
+
+
+@media screen and (min-width: $ss8min)
+  .carousel_cards
+    padding: $p8
+  .carousel_cards_bp,
+  .skills_toplevel
+    margin-top: $p8/4
+@media screen and (max-width: $ss7)
+  .carousel_cards
+    padding: $p7
+  .carousel_cards_bp,
+  .skills_toplevel
+    margin-top: $p7/4
+@media screen and (max-width: $ss6)
+  .carousel_cards
+    padding: $p6
+  .carousel_cards_bp,
+  .skills_toplevel
+    margin-top: $p6/4
+@media screen and (max-width: $ss5)
+  .carousel_cards
+    padding: $p5
+  .carousel_cards_bp,
+  .skills_toplevel
+    margin-top: $p5/4
+@media screen and (max-width: $ss4)
+  .carousel_cards
+    padding: $p4
+  .carousel_cards_bp,
+  .skills_toplevel
+    margin-top: $p4/4
+@media screen and (max-width: $ss3)
+  .carousel_cards
+    padding: $p3
+  .carousel_cards_bp,
+  .skills_toplevel
+    margin-top: $p3/4
+@media screen and (max-width: $ss2)
+  .carousel_cards
+    padding: $p2
+  .carousel_cards_bp,
+  .skills_toplevel
+    margin-top: $p2/4
+@media screen and (max-width: $ss1)
+  .carousel_cards
+    padding: $p1
+  .carousel_cards_bp,
+  .skills_toplevel
+    margin-top: $p1/4
+    
