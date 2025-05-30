@@ -64,7 +64,7 @@ export const WorkCarousel = () => {
       content: [
         "• Facilitated student understanding and implementation of object-oriented\
         programming concepts in lab and project coursework.",
-        "• Aided 200+ college students in developing criitical understanding of Java programming concepts through\
+        "• Aided 200+ college students in developing critical understanding of Java programming concepts through\
         (1) helping develop routine study habits and learning plans of object-oriented programming topics,\
         (2) providing important learning resources [both internal to the course and external],\
         (3) recommending new ways to think about previously-tackled problems [i.e., bettering\
