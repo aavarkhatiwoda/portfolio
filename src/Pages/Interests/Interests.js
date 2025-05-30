@@ -95,12 +95,12 @@ function ShowSkills() {
     "JSX",
     "Sass",
     "Netlify",
-    "Jenkins",
-    "Jira",
     "Vim",
     "Terminal",
     "Linux / Red Hat Enterprise Linux",
     "Virtual Machines",
+    "Jenkins",
+    "Jira",
   ];
   return (
     <div className="skills_toplevel">

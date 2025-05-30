@@ -26,7 +26,7 @@ export const ProjectsCarousel = () => {
       image: VirginiaTech,
       name: "Multimedia Web and Video Server",
       technologies: ["C"],
-      description: "Virginia Tech - CS 3214, Computer Systems",
+      description: "CS 3214, Computer Systems",
       link: "https://cs.vt.edu",
       content: [
         "• Built a robust and tested multimedia server with multiple client support and protocol\
