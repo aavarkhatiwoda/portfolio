@@ -11,8 +11,8 @@ export const LeadershipCarousel = () => {
       image: CSOS,
       name: "Founding Vice President",
       technologies: [],
-      description: "CS OpenSource at Virginia Tech",
-      description2: "Jan 2024 - May 2024 · Blacksburg, VA",
+      description: "CS OpenSource at Virginia Tech // Career Development Resources",
+      description2: "Jan 2024 - May 2024 // Blacksburg, VA",
       link: "https://www.vt.edu",
       content: [
         "• Established a new club targeting students’ career developments through their\
@@ -30,7 +30,7 @@ export const LeadershipCarousel = () => {
       name: "Mathematics Tutor",
       technologies: [],
       description: "Mathnasium",
-      description2: "Oct 2020 - Jun 2021 · Falls Church, VA",
+      description2: "Oct 2020 - Jun 2021 // Falls Church, VA",
       link: "https://www.mathnasium.com/fallschurch/schedules",
       content: [
         "• Tutored 30+ elementary, middle, and high school students core mathematics course\

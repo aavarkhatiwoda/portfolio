@@ -10,9 +10,9 @@ export const ProjectsCarousel = () => {
   const c = [
     {
       image: PersonalProject,
-      name: "Software Engineer Portfolio | aavarkhatiwoda.com",
+      name: "SWE Portfolio // aavarkhatiwoda.com",
       technologies: ["ReactJS", "JSX", "Sass", "Netlify"],
-      description: "Personal Project, Continuous Development",
+      description: "Personal Project // Continuous Development",
       link: "https://github.com/aavarkhatiwoda/portfolio",
       content: [
         "• Self-taught ReactJS [5+ years] and developed software engineer portfolio website\

@@ -25,7 +25,7 @@ export const WorkCarousel = () => {
         "Jira",
       ],
       description: "Lockheed Martin",
-      description2: "May 2024 - Present · Manassas, VA · Secret Clearance",
+      description2: "May 2024 - Present // Manassas, VA // Secret Clearance",
       link: "https://www.lockheedmartin.com/en-us/index.html",
       content: [
         "• Go-to subject matter expert for scripting-related inquiries, from classified to\
@@ -33,10 +33,10 @@ export const WorkCarousel = () => {
         "• Upheld best engineering practices to continuously refactor and improve the codebase\
         to assist in maintaining a scalable platform, such as by reducing redundancies in code\
         through developing scripts to automate repetitive intensive tasks.",
-        "• 10+ years of team’s documentation by migrating resources from Redmine to GitLab ahead\
-        of Redmine’s deprecation. Developed scripts to automate the processes of extracting Redmine\
-        wikis, converting AsciiDoc to Markdown through existing tool, fixing imperfections of the\
-        conversion tool, and migrating finalized documents to GitLab.",
+        "• Preserved 10+ years of team’s documentation by migrating resources from Redmine to\
+        GitLab ahead of Redmine’s deprecation. Developed scripts to automate the processes of\
+        extracting Redmine wikis, converting AsciiDoc to Markdown through an existing tool, fixing\
+        imperfections of the conversion tool, and migrating finalized documents to GitLab.",
       ],
     },
     {
@@ -44,7 +44,7 @@ export const WorkCarousel = () => {
       name: "Undergraduate Research Assistant",
       technologies: ["Python", "C++", "C"],
       description: "CS 4994, Undergraduate Research",
-      description2: "Jan 2024 - May 2024 · Blacksburg, VA",
+      description2: "Jan 2024 - May 2024 // Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
         "• Developed a novel three-step algorithm to resolve memory bandwidth limitations of\
@@ -59,7 +59,7 @@ export const WorkCarousel = () => {
       name: "Undergraudate Teaching Assistant",
       technologies: ["Java"],
       description: "CS 1114, Introduction to Software Design",
-      description2: "Aug 2023 - Dec 2023 · Blacksburg, VA",
+      description2: "Aug 2023 - Dec 2023 // Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
         "• Facilitated student understanding and implementation of object-oriented\
@@ -85,7 +85,7 @@ export const WorkCarousel = () => {
         "OpenSearch Dashboards",
       ],
       description: "Northrop Grumman",
-      description2: "Jun 2023 - Aug 2023 · Baltimore, MD · Secret Clearance",
+      description2: "Jun 2023 - Aug 2023 // Baltimore, MD // Secret Clearance",
       link: "https://www.northropgrumman.com",
       content: [
         "• Developed new Jenkins health monitoring tools to better prevent and diagnose build\

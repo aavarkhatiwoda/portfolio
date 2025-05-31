@@ -30,7 +30,7 @@ function Home() {
 
 function RouteToResume() {
   window.location.replace(
-    "https://aavarkhatiwoda.com/static/media/aavarkhatiwoda_resume_2025.000ce2f78dbe85d89d0e.pdf"
+    "https://aavarkhatiwoda.com/static/media/aavarkhatiwoda_resume_2025.dd7db03d23ed3bc8766b.pdf"
   );
 }
 
