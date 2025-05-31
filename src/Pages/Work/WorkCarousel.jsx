@@ -33,10 +33,10 @@ export const WorkCarousel = () => {
         "• Upheld best engineering practices to continuously refactor and improve the codebase\
         to assist in maintaining a scalable platform, such as by reducing redundancies in code\
         through developing scripts to automate repetitive intensive tasks.",
-        "• Preserved 10+ years of department’s documentation by migrating resources from Redmine\
-        to GitLab ahead of Redmine’s deprecation. Developed scripts to extract Redmine AsciiDoc\
-        documentation, convert items to Markdown format, fix imperfections of the conversion tool\
-        and migrate to GitLab.",
+        "• 10+ years of team’s documentation by migrating resources from Redmine to GitLab ahead\
+        of Redmine’s deprecation. Developed scripts to automate the processes of extracting Redmine\
+        wikis, converting AsciiDoc to Markdown through existing tool, fixing imperfections of the\
+        conversion tool, and migrating finalized documents to GitLab.",
       ],
     },
     {
