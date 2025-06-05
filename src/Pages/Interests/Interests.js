@@ -11,13 +11,13 @@ export default function Interests() {
         <div className="interests_grid1" />
 
         <div className="interests_grid2">
-          <div className="interests_grid2_text fs2 fc2">
+          <div className="interests_grid2_text fs2">
             Nice to meet you! I'm a level I software engineer at{" "}
             <a
               href={"https://www.lockheedmartin.com/en-us/index.html"}
               target="_blank"
               rel="noopener noreferrer"
-              className="link fc2 fc3"
+              className="link fc3"
             >
               <b>Lockheed Martin</b>
             </a>{" "}
@@ -26,7 +26,7 @@ export default function Interests() {
               href={"https://cs.vt.edu"}
               target="_blank"
               rel="noopener noreferrer"
-              className="link fc2 fc3"
+              className="link fc3"
             >
               <b>Virginia Tech</b>
             </a>{" "}
@@ -44,7 +44,7 @@ export default function Interests() {
               href={"https://cs.vt.edu"}
               target="_blank"
               rel="noopener noreferrer"
-              className="link fc2 fc3"
+              className="link fc3"
             >
               <b>undergraduate teaching assistant</b>
             </a>{" "}
@@ -53,7 +53,7 @@ export default function Interests() {
               href={"https://cs.vt.edu"}
               target="_blank"
               rel="noopener noreferrer"
-              className="link fc2 fc3"
+              className="link fc3"
             >
               <b>undergraduate reaching assistant</b>
             </a>{" "}

@@ -9,7 +9,7 @@ export const CarouselCards = ({ i, width }) => {
         href={i.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="carousel_cards fc3"
+        className="carousel_cards"
       >
         <img className="carousel_cards_image" src={i.image} />
         <div className="carousel_cards_text fs1">

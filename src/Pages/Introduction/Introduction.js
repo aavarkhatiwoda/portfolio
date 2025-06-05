@@ -42,7 +42,7 @@ function ShowMenuLinks() {
       <div>
         {menulinkslist.map((item) => (
           <ul>
-            <li className="introduction_grid1_links fs1 fc2">
+            <li className="introduction_grid1_links fs2 fc2">
               <Link
                 activeClass="active"
                 to={item.id}

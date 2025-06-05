@@ -11,7 +11,7 @@ export const LeadershipCarousel = () => {
       image: CSOS,
       name: "Founding Vice President",
       technologies: [],
-      description: "CS OpenSource at Virginia Tech // Career Development Resources",
+      description: "CS OpenSource at Virginia Tech",
       description2: "Jan 2024 - May 2024 // Blacksburg, VA",
       link: "https://www.vt.edu",
       content: [
