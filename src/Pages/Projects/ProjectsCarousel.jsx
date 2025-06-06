@@ -15,11 +15,11 @@ export const ProjectsCarousel = () => {
       description: "Personal Project // Continuous Development",
       link: "https://github.com/aavarkhatiwoda/portfolio",
       content: [
-        "• Self-taught ReactJS [5+ years] and developed software engineer portfolio website\
+        "• Self-taught ReactJS [5+ years] and designed software engineer portfolio website\
                 to highlight relevant skills, work history, and projects.",
         "• Emphasized high-quality user interface and user experience through interactive components\
         and visual clarity.",
-        "• Designed for mobile to 4k-resolution displays.",
+        "• Crafted for mobile to 4k-resolution displays.",
       ],
     },
     {

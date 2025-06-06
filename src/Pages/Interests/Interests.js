@@ -58,8 +58,8 @@ export default function Interests() {
               <b>undergraduate reaching assistant</b>
             </a>{" "}
             during the Spring 2024 semester. During my time as a URA, I was able
-            to develop important technical skillsets related to research. In the course,
-            my research group was able to develop a novel algorithm which would surpass
+            to cultivate important technical skillsets related to research. In the course,
+            my research parner and I designed a novel algorithm which would surpass
             the industry standard, the DEFLATE algorithm, in compressing large data sets
             of varying characteristics. My time in research has led to an interest in
             pursuing a MS in Computer Science starting in Fall 2026.

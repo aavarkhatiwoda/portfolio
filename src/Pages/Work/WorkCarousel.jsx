@@ -33,10 +33,10 @@ export const WorkCarousel = () => {
         "• Upheld best engineering practices to continuously refactor and improve the codebase\
         to assist in maintaining a scalable platform, such as by reducing redundancies in code\
         through developing scripts to automate repetitive intensive tasks.",
-        "• Preserved 10+ years of department’s documentation by migrating resources from Redmine\
-        to GitLab ahead of Redmine’s deprecation. Developed scripts to extract Redmine AsciiDoc\
-        documentation, convert items to Markdown format, fix imperfections of the conversion tool\
-        and migrate to GitLab.",
+        "• Preserved 10+ years of team’s documentation by migrating resources from Redmine to\
+        GitLab ahead of Redmine’s deprecation. Developed scripts to automate the processes of\
+        extracting Redmine wikis, converting AsciiDoc to Markdown through an existing tool, fixing\
+        imperfections of the conversion tool, and migrating finalized documents to GitLab.",
       ],
     },
     {
@@ -47,7 +47,7 @@ export const WorkCarousel = () => {
       description2: "Jan 2024 - May 2024 // Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
-        "• Developed a novel three-step algorithm to resolve memory bandwidth limitations of\
+        "• Designed a novel three-step algorithm to resolve memory bandwidth limitations of\
         traditional compression techniques, improving random-access decompression across four\
         diverse memory dumps.",
         "• Outperformed the DEFLATE algorithm in compression performance across each tested\
@@ -64,8 +64,8 @@ export const WorkCarousel = () => {
       content: [
         "• Facilitated student understanding and implementation of object-oriented\
         programming concepts in lab and project coursework.",
-        "• Aided 200+ college students in developing criitical understanding of Java programming concepts through\
-        (1) helping develop routine study habits and learning plans of object-oriented programming topics,\
+        "• Aided 200+ college students in building critical understanding of Java programming concepts through\
+        (1) helping construct routine study habits and learning plans of object-oriented programming topics,\
         (2) providing important learning resources [both internal to the course and external],\
         (3) recommending new ways to think about previously-tackled problems [i.e., bettering\
         implementation of data structures, reducing redundancy in code, and better\
