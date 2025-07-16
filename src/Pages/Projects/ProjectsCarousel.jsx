@@ -27,7 +27,7 @@ export const ProjectsCarousel = () => {
       image: VirginiaTech,
       name: "Multimedia Web and Video Server",
       technologies: ["C"],
-      description: "CS 3214, Computer Systems",
+      description: "Virginia Tech · CS 3214, Computer Systems",
       description2: "Apr 2024 - May 2024",
       link: "https://cs.vt.edu",
       content: [
@@ -41,7 +41,7 @@ export const ProjectsCarousel = () => {
       image: VirginiaTech,
       name: "Job Control Shells",
       technologies: ["C"],
-      description: "CS 3214, Computer Systems",
+      description: "Virginia Tech · CS 3214, Computer Systems",
       description2: "Jan 2024 - Feb 2024",
       link: "https://cs.vt.edu",
       content: [

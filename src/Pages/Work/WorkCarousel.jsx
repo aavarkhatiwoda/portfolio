@@ -28,8 +28,6 @@ export const WorkCarousel = () => {
       description2: "May 2024 - Present · Manassas, VA · Secret Clearance",
       link: "https://www.lockheedmartin.com/en-us/index.html",
       content: [
-        "• Go-to subject matter expert for scripting-related inquiries, from classified to\
-        unclassified systems.",
         "• Upheld best engineering practices to continuously refactor and improve the codebase\
         to assist in maintaining a scalable platform, such as by reducing redundancies in code\
         through developing scripts to automate repetitive intensive tasks.",
@@ -37,13 +35,16 @@ export const WorkCarousel = () => {
         GitLab ahead of Redmine’s deprecation. Developed scripts to automate the processes of\
         extracting Redmine wikis, converting AsciiDoc to Markdown through an existing tool, fixing\
         imperfections of the conversion tool, and migrating finalized documents to GitLab.",
+        "• Supported critical networking infrastructures through consolidating nonuniform hostnaming\
+        conventions across multiple classified and unclassified systems, and updating scripts to\
+        efficiently utilize the new conventions to fetch the intended IPs.",
       ],
     },
     {
       image: VirginiaTech,
       name: "Undergraduate Research Assistant",
       technologies: ["Python", "C++", "C"],
-      description: "CS 4994, Undergraduate Research",
+      description: "Virginia Tech · CS 4994, Undergraduate Research",
       description2: "Jan 2024 - May 2024 · Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
@@ -58,7 +59,7 @@ export const WorkCarousel = () => {
       image: VirginiaTech,
       name: "Undergraudate Teaching Assistant",
       technologies: ["Java"],
-      description: "CS 1114, Introduction to Software Design",
+      description: "Virginia Tech · CS 1114, Introduction to Software Design",
       description2: "Aug 2023 - Dec 2023 · Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
