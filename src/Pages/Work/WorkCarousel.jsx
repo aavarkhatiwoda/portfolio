@@ -28,9 +28,9 @@ export const WorkCarousel = () => {
       description2: "May 2024 - Present · Manassas, VA · Secret Clearance",
       link: "https://www.lockheedmartin.com/en-us/index.html",
       content: [
-        "• Upheld best engineering practices to continuously refactor and improve the codebase\
-        to assist in maintaining a scalable platform, such as by reducing redundancies in code\
-        through developing scripts to automate repetitive intensive tasks.",
+        "• Continuously refactored and improved the codebase to assist in maintaining a scalable\
+        platform, such as by developing scripts to automate disjointed repetitive intensive tasks\
+        across multiple systems into common scripts.",
         "• Preserved 10+ years of team’s documentation by migrating resources from Redmine to\
         GitLab ahead of Redmine’s deprecation. Developed scripts to automate the processes of\
         extracting Redmine wikis, converting AsciiDoc to Markdown through an existing tool, fixing\
@@ -63,8 +63,6 @@ export const WorkCarousel = () => {
       description2: "Aug 2023 - Dec 2023 · Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
-        "• Facilitated student understanding and implementation of object-oriented\
-        programming concepts in lab and project coursework.",
         "• Aided 200+ college students in building critical understanding of Java programming concepts through\
         (1) helping construct routine study habits and learning plans of object-oriented programming topics,\
         (2) providing important learning resources [both internal to the course and external],\
