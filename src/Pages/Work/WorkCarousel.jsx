@@ -44,7 +44,7 @@ export const WorkCarousel = () => {
       image: VirginiaTech,
       name: "Undergraduate Research Assistant",
       technologies: ["Python", "C++", "C"],
-      description: "Virginia Tech · CS 4994, Undergraduate Research",
+      description: "CS 4994 - Undergraduate Research",
       description2: "Jan 2024 - May 2024 · Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
@@ -59,7 +59,7 @@ export const WorkCarousel = () => {
       image: VirginiaTech,
       name: "Undergraudate Teaching Assistant",
       technologies: ["Java"],
-      description: "Virginia Tech · CS 1114, Introduction to Software Design",
+      description: "CS 1114 - Introduction to Software Design",
       description2: "Aug 2023 - Dec 2023 · Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [

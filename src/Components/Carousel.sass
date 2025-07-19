@@ -4,9 +4,10 @@
 @import './Fonts'
 
 .carousel_cards
+  border-radius: 5px
   &:hover
     transition: $t
-    background: rgba($bc1, .75)
+    background: $bc4
     .carousel_cards_name,
     .carousel_cards_text
       color: $fc3
@@ -15,15 +16,16 @@
 
 .carousel_cards_image
   @media screen and (min-width: $ss7min)
-    height: 80px
+    height: 60px
   @media screen and (max-width: $ss6)
-    height: 40px
-  @media screen and (max-width: $ss2)
     height: 30px
+  @media screen and (max-width: $ss2)
+    height: 20px
 
 
 @media screen and (min-width: $ss8min)
   .carousel_cards
+    border-radius: 10px
     padding: $p8
   .carousel_cards_bp,
   .skills_toplevel

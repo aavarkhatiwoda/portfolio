@@ -30,7 +30,7 @@ function Home() {
 
 function RouteToResume() {
   window.location.replace(
-    "https://k-td.com/static/media/aavarkhatiwoda_resume_2025.08c1749f1dc2d5f5f881.pdf"
+    "https://k-td.com/static/media/aavarkhatiwoda_resume_2025.d52ee832a7374f7de616.pdf"
   );
 }
 
@@ -42,6 +42,10 @@ function RouteToLinkedIn() {
   window.location.replace("https://www.linkedin.com/in/aavar");
 }
 
+function RouteToInstagram() {
+  window.location.replace("https://www.instagram.com/aavarkhatiwada/");
+}
+
 export default function App() {
   return (
     <Router>
@@ -50,7 +54,7 @@ export default function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/resume" element={<RouteToResume />} />
         <Route exact path="/github" element={<RouteToGitHub />} />
-        <Route exact path="/linkedin" element={<RouteToLinkedIn />} />
+        <Route exact path="/instagram" element={<RouteToInstagram />} />
       </Routes>
     </Router>
   );

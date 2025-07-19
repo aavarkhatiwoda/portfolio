@@ -116,6 +116,7 @@ function ShowSocials() {
     { name: "Résumé", link: Résumé },
     { name: "GitHub", link: "https://www.github.com/aavarkhatiwoda" },
     { name: "LinkedIn", link: "https://linkedin.com/in/aavar" },
+    { name: "Instagram", link: "https://www.instagram.com/aavarkhatiwada/" },
   ];
   return (
     <div className="skills_toplevel">
