@@ -3,9 +3,12 @@
 @import './Colors'
 
 .skills
+    border-radius: 5px
     color: $fc1
     background: $bc2
     transition: $t
+    @media screen and (min-width: $ss8min)
+        border-radius: 10px
     &:hover
         color: $fc3
         background: $bc1

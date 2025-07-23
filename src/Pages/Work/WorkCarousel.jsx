@@ -31,13 +31,13 @@ export const WorkCarousel = () => {
         "• Continuously refactored and improved the codebase to assist in maintaining a scalable\
         platform, such as by developing scripts to automate disjointed repetitive intensive tasks\
         across multiple systems into common scripts.",
+        "• Supported critical networking infrastructures through consolidating nonuniform hostnaming\
+        conventions across multiple classified and unclassified systems and updating scripts to utilize\
+        the new conventions to fetch the intended IPs.",
         "• Preserved 10+ years of team’s documentation by migrating resources from Redmine to\
         GitLab ahead of Redmine’s deprecation. Developed scripts to automate the processes of\
         extracting Redmine wikis, converting AsciiDoc to Markdown through an existing tool, fixing\
         imperfections of the conversion tool, and migrating finalized documents to GitLab.",
-        "• Supported critical networking infrastructures through consolidating nonuniform hostnaming\
-        conventions across multiple classified and unclassified systems, and updating scripts to\
-        efficiently utilize the new conventions to fetch the intended IPs.",
       ],
     },
     {
