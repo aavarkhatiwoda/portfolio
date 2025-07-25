@@ -28,7 +28,7 @@ export const WorkCarousel = () => {
       description2: "May 2024 - Present · Manassas, VA · Secret Clearance",
       link: "https://www.lockheedmartin.com/en-us/index.html",
       content: [
-        "• Facilitate continuous refactorization efforts of the codebase to maintain modular and scalable platforms,\
+        "• Facilitate continuous refactorization of the codebase to maintain modular and scalable platforms,\
         such as by consolidating disjoined repetitive tasks across multiple systems and subsystems into common\
         scripts.",
         "• Enhanced networking infrastructure by standardizing outdated hostnaming paradigms across key systems into a\
