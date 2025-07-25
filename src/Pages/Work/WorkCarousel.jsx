@@ -31,13 +31,13 @@ export const WorkCarousel = () => {
         "• Facilitate continuous refactorization efforts of the codebase to maintain modular and scalable platforms,\
         such as by consolidating disjoined repetitive tasks across multiple systems and subsystems into common\
         scripts.",
-        "• Enhanced critical networking platforms by standardizing outdated hostnaming paradigms across\
-        multiple classified and unclassified systems into a single convention, and updating scripts to utilize\
-        the new hostnames to retrieve intended IPs for their respective systems",
-        "• Preserved 10+ years of team documentation by migrating resources from Redmine to GitLab ahead of\
-        Redmine’s deprecation. Developed scripts to automate extracting 150+ wikis in Redmine’s AsciiDoc format,\
-        converting AsciiDoc to Markdown through an existing tool, fixing imperfections of the conversion tool,\
-        and migrating finalized documents to GitLab.",
+        "• Enhanced networking infrastructure by standardizing outdated hostnaming paradigms across key systems into a\
+        modern notation, and updating scripts to utilize the new notation to efficiently yield intended system IP\
+        addresses.",
+        "• Preserved 10+ years of team documentation by migrating resources from Redmine to GitLab ahead of Redmine’s\
+        deprecation. Developed scripts to automate the process of extracting 150+ wikis in Redmine’s AsciiDoc format,\
+        converting AsciiDoc to Markdown through an existing tool, fixing imperfections of the conversion tool, and\
+        migrating finalized documents to GitLab.",
       ],
     },
     {
@@ -48,11 +48,9 @@ export const WorkCarousel = () => {
       description2: "Jan 2024 - May 2024 · Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
-        "• Designed a novel three-step algorithm to resolve memory bandwidth limitations of\
-        traditional compression techniques, improving random-access decompression across four\
-        diverse memory dumps.",
-        "• Outperformed the DEFLATE algorithm in compression performance across each tested\
-        memory dump.",
+        "• Designed a novel three-step algorithm to resolve memory bandwidth limitations of traditional compression\
+        techniques, improving random-access decompression across four diverse memory dumps.",
+        "• Outperformed the DEFLATE algorithm in compression performance across each tested memory dump.",
       ],
     },
     {
@@ -66,9 +64,8 @@ export const WorkCarousel = () => {
         "• Aided 200+ college students in building critical understanding of Java programming concepts through\
         (1) helping construct routine study habits and learning plans of object-oriented programming topics,\
         (2) providing important learning resources [both internal to the course and external],\
-        (3) recommending new ways to think about previously-tackled problems [i.e., bettering\
-        implementation of data structures, reducing redundancy in code, and better\
-        conceptualizing simple solutions to complex problems].",
+        (3) recommending new ways to think about previously-tackled problems [e.g., bettering implementation of data\
+        structures, reducing redundancy in code, and better conceptualizing simple solutions to complex problems].",
       ],
     },
     {
@@ -87,11 +84,11 @@ export const WorkCarousel = () => {
       description2: "Jun 2023 - Aug 2023 · Baltimore, MD · Secret Clearance",
       link: "https://www.northropgrumman.com",
       content: [
-        "• Developed new Jenkins health monitoring tools to better prevent and diagnose build\
-        failures, implementing the ability to filter diagnostics criteria through user-specific\
-        data visualization metrics on OpenSearch Dashboards.",
-        "• Optimized Jenkins pipeline data collection scripts, yielding a 30%+ increase in speed\
-        in the data collection process.",
+        "• Developed new Jenkins health monitoring tools to better prevent and diagnose build failures, implementing\
+        the ability to filter diagnostics criteria through user-specific data visualization metrics on OpenSearch\
+        Dashboards.",
+        "• Optimized Jenkins pipeline data collection scripts, yielding a 30%+ increase in speed in the data\
+        collection process.",
       ],
     },
   ];
