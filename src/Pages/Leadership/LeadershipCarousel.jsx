@@ -17,12 +17,10 @@ export const LeadershipCarousel = () => {
       content: [
         "• Established a new club targeting students’ career developments through their\
         contributions to open source projects.",
-        "• Created a timeline of goals and held club events to help students get started in\
-        understanding the world of collaborative software development pertaining to open source\
-        projects.",
-        "• Introduced 55+ new students to critical software collaboration tools and concepts, and\
-        provided resources to help students find meaningful open source projects to contribute to,\
-        aligned with their interests.",
+        "• Created a timeline of goals and held club events to aid students in understanding collaborative software\
+        development pertaining to open source projects.",
+        "• Introduced 55+ new students to collaborative software tools and provided resources to help students find\
+        meaningful open source projects of interest.",
       ],
     },
     {

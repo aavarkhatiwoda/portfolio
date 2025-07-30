@@ -28,16 +28,17 @@ export const WorkCarousel = () => {
       description2: "May 2024 - Present · Manassas, VA · Secret Clearance",
       link: "https://www.lockheedmartin.com/en-us/index.html",
       content: [
-        "• Facilitate continuous refactorization of the codebase to maintain modular and scalable platforms,\
-        such as by consolidating disjoined repetitive tasks across multiple systems and subsystems into common\
-        scripts.",
-        "• Enhanced networking infrastructure by standardizing outdated hostnaming paradigms across key systems into a\
+        "A little bit of what I've done:",
+        "• Facilitate continuous refactorization efforts of the codebase to maintain and enhance modular and scalable\
+        platforms, providing impactful improvements to both internal cross-platform and federal client applications.",
+        "• Deliver improved high-impact scripting design guidelines to help engineers ensure uniformity and\
+        scalability in coding design practices.",
+        "• Drive preservation of team’s documentation through migrating 10+ years [200+ wikis] of documents from\
+        Redmine to GitLab by developing new scripts to efficiently automate the entire migration process, avoiding\
+        error-prone manual workarounds.",
+        "• Enhance networking infrastructure by standardizing outdated hostnaming paradigms across key systems into a\
         modern notation, and updating scripts to utilize the new notation to efficiently yield intended system IP\
         addresses.",
-        "• Preserved 10+ years of team documentation by migrating resources from Redmine to GitLab ahead of Redmine’s\
-        deprecation. Developed scripts to automate the process of extracting 150+ wikis in Redmine’s AsciiDoc format,\
-        converting AsciiDoc to Markdown through an existing tool, fixing imperfections of the conversion tool, and\
-        migrating finalized documents to GitLab.",
       ],
     },
     {
@@ -84,11 +85,11 @@ export const WorkCarousel = () => {
       description2: "Jun 2023 - Aug 2023 · Baltimore, MD · Secret Clearance",
       link: "https://www.northropgrumman.com",
       content: [
-        "• Developed new Jenkins health monitoring tools to better prevent and diagnose build failures, implementing\
-        the ability to filter diagnostics criteria through user-specific data visualization metrics on OpenSearch\
+        "• Developed new Jenkins health monitoring tools to better diagnose and prevent build failures, implementing\
+        the ability to filter key diagnostics criteria through specific data visualization metrics on OpenSearch\
         Dashboards.",
-        "• Optimized Jenkins pipeline data collection scripts, yielding a 30%+ increase in speed in the data\
-        collection process.",
+        "• Enhanced scalability of Jenkins pipeline data collection, optimizing scripts to yield a +30% improvement in\
+        collection speeds.",
       ],
     },
   ];
