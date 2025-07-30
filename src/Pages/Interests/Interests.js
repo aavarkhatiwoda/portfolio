@@ -33,11 +33,13 @@ export default function Interests() {
             with a bachelor's degree in computer science and a minor in
             mathematics.
             <div className="newline" />
-            My main interests are in scripting with Python and Bash. I also enjoy
-            programming in Java, as well as things relating to memory management
-            through utilizing C/C++. I love being creative and crafting engaging
-            websites using ReactJS. Outside of technology, I love playing music on
-            my piano and guitar.
+            I love being creative, which has guided me to take interest in a wide range of
+            technologies and learn as much as I can about these tools.
+            My main strengths are in scripting using Python and Bash, and I also enjoy
+            object-oriented programming with Java. I am currently learning about the process of
+            developing custom game engines using C and C++. In addition, I love crafting engaging
+            websites using ReactJS.
+            Outside of technology, I love playing music on my piano and guitar. 
             <div className="newline" />
             During my time at Virginia Tech, I was an{" "}
             <a
@@ -59,7 +61,7 @@ export default function Interests() {
             </a>{" "}
             during the Spring 2024 semester. During my time as a URA, I was able
             to cultivate important technical skillsets related to research. In the course,
-            my research parner and I designed a novel algorithm which would surpass
+            my research partner and I designed a novel algorithm which would surpass
             the industry standard, the DEFLATE algorithm, in compressing large data sets
             of varying characteristics. My time in research has led to an interest in
             pursuing a MS in Computer Science starting in Fall 2026.
