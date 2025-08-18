@@ -1,0 +1,179 @@
+@import './Components/Breakpoints'
+@import './Components/Constants'
+@import './Components/Colors'
+@import './Components/Fonts'
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body
+  margin: 0
+  font-family: 'EB Garamond', 'Times New Roman', serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+ul
+  list-style: none
+  padding: 0
+
+li
+  list-style: none
+  padding: 0
+  margin: 0
+
+a
+  text-decoration: none
+  display: inline-block
+  padding: 0
+  margin: 0
+
+.link
+  transition: $t
+  &:hover
+    cursor: pointer
+    color: $fc2
+
+.fs1,
+.fs2,
+.fs3,
+.fs4
+  color: $fc2
+
+.fc1
+  color: $fc1
+.fc2
+  color: $fc2
+.fc3
+  color: $fc3
+
+@media screen and (min-width: $ss8min)
+  .fs1
+    font-size: $ss8-fs1
+  .fs2
+    font-size: $ss8-fs2
+  .fs3
+    font-size: $ss8-fs3
+@media screen and (max-width: $ss7)
+  .fs1
+    font-size: $ss7-fs1
+  .fs2
+    font-size: $ss7-fs2
+  .fs3
+    font-size: $ss7-fs3
+@media screen and (max-width: $ss6)
+  .fs1
+    font-size: $ss6-fs1
+  .fs2
+    font-size: $ss6-fs2
+  .fs3
+    font-size: $ss6-fs3
+@media screen and (max-width: $ss5)
+  .fs1
+    font-size: $ss5-fs1
+  .fs2
+    font-size: $ss5-fs2
+  .fs3
+    font-size: $ss5-fs3
+@media screen and (max-width: $ss4)
+  .fs1
+    font-size: $ss4-fs1
+  .fs2
+    font-size: $ss4-fs2
+  .fs3
+    font-size: $ss4-fs3
+@media screen and (max-width: $ss3)
+  .fs1
+    font-size: $ss3-fs1
+  .fs2
+    font-size: $ss3-fs2
+  .fs3
+    font-size: $ss3-fs3
+@media screen and (max-width: $ss2)
+  .fs1
+    font-size: $ss2-fs1
+  .fs2
+    font-size: $ss2-fs2
+  .fs3
+    font-size: $ss2-fs3
+@media screen and (max-width: $ss1)
+  .fs1
+    font-size: $ss1-fs1
+  .fs2
+    font-size: $ss1-fs2
+  .fs3
+    font-size: $ss1-fs3
+
+@media screen and (min-width: $ss8min)
+  .fs1,
+  .fs2
+    line-height: 50px
+@media screen and (max-width: $ss7)
+  .fs1,
+  .fs2
+    line-height: 38px
+@media screen and (max-width: $ss6)
+  .fs1,
+  .fs2
+    line-height: 25px
+@media screen and (max-width: $ss5)
+  .fs1,
+  .fs2
+    line-height: 22px
+@media screen and (max-width: $ss5)
+  .fs1,
+  .fs2
+    line-height: 22px
+@media screen and (max-width: $ss3)
+  .fs1,
+  .fs2
+    line-height: 22px
+@media screen and (max-width: $ss2)
+  .fs1,
+  .fs2
+    line-height: 22px
+@media screen and (max-width: $ss1)
+  .fs1,
+  .fs2
+    line-height: 22px
+    
+.work_grid2_intro
+    padding-bottom: 25px
+
+@media screen and (min-width: $ss8min)
+  .newline
+    padding-top: $p8
+  .newline_small
+    padding-top: $p8/2
+@media screen and (max-width: $ss7)
+  .newline
+    padding-top: $p7
+  .newline_small
+    padding-top: $p7/2
+@media screen and (max-width: $ss6)
+  .newline
+    padding-top: $p6
+  .newline_small
+    padding-top: $p6/2
+@media screen and (max-width: $ss5)
+  .newline
+    padding-top: $p5
+  .newline_small
+    padding-top: $p5/2
+@media screen and (max-width: $ss4)
+  .newline
+    padding-top: $p4
+  .newline_small
+    padding-top: $p4/2
+@media screen and (max-width: $ss3)
+  .newline
+    padding-top: $p3
+  .newline_small
+    padding-top: $p3/2
+@media screen and (max-width: $ss2)
+  .newline
+    padding-top: $p2
+  .newline_small
+    padding-top: $p2/2
+@media screen and (max-width: $ss1)
+  .newline
+    padding-top: $p1
+  .newline_small
+    padding-top: $p1/2
