@@ -28,13 +28,13 @@ export const WorkCarousel = () => {
       description2: "May 2024 - Present · Manassas, VA · Secret Clearance",
       link: "https://www.lockheedmartin.com/en-us/index.html",
       content: [
-        "▸ Develop, implement, and maintain new scalable codebase architecture and facilitate refactorization of old\
+        "▸ Develop, implement, and maintain new scalable codebase architectures and facilitate refactorization of old\
         tools to continuously enhance existing internal cross-platform and federal client applications.",
-        "▸ Streamline data capture and export processes of automated classified/unclassified system logs and manual\
-        user-requested data to enhance analysis of critical system information and provide impactful solutions to\
-        potentially failing services.",
-        "▸ Preserve 10+ years of team’s critical workflow documentation by automating the migration of 160+ wikis from\
-        Redmine to GitLab through new scripts, avoiding error-prone manual workarounds.",
+        "▸ Streamline the data capture and export processes of automated and user-requested classified/unclassified\
+        system logs to enhance analysis of critical system information and provide impactful solutions to potentially\
+        failing services.",
+        "▸ Automate the migration of team’s 160+ critical workflow wikis from Redmine to GitLab to preserve essential\
+        documentation ahead of Redmine’s deprecation.",
         "▸ Enhance networking infrastructure by standardizing outdated hostnaming paradigms across key systems into a\
         modern notation.",
         "▸ Deliver improved high-impact scripting design guidelines to help engineers ensure uniformity and\
@@ -62,7 +62,7 @@ export const WorkCarousel = () => {
       description2: "Aug 2023 - Dec 2023 · Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
-        "▸ Aided 200+ college students in building critical understanding of Java programming concepts through\
+        "▸ Aided 200+ college students in building a critical understanding of Java programming concepts through\
         (1) helping construct routine study habits and learning plans of object-oriented programming topics,\
         (2) providing important learning resources [both internal to the course and external], and\
         (3) recommending new ways to think about previously-tackled problems [e.g., bettering implementation of data\
