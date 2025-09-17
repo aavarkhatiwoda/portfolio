@@ -33,12 +33,12 @@ export const WorkCarousel = () => {
         "▸ Streamline the data capture and export processes of automated and user-requested classified/unclassified\
         system logs to enhance analysis of critical system information and provide impactful solutions to potentially\
         failing services.",
-        "▸ Automate the migration of team’s 160+ critical workflow wikis from Redmine to GitLab to preserve essential\
-        documentation ahead of Redmine’s deprecation.",
         "▸ Enhance networking infrastructure by standardizing outdated hostnaming paradigms across key systems into a\
         modern notation.",
         "▸ Deliver improved high-impact scripting design guidelines to help engineers ensure uniformity and\
         scalability in coding design practices.",
+        "▸ Automate the migration of team’s 160+ critical workflow wikis from Redmine to GitLab to preserve essential\
+        documentation ahead of Redmine’s deprecation.",
       ],
     },
     {
