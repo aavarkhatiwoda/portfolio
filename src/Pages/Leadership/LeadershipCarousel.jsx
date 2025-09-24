@@ -15,11 +15,12 @@ export const LeadershipCarousel = () => {
       description2: "Jan 2024 - May 2024 · Blacksburg, VA",
       link: "https://www.vt.edu",
       content: [
-        "▸ Established a new club targeting students’ career developments through their contributions to open source\
-        projects.",
-        "▸ Held events to target club growth and introduced 55+ new students to collaborative software development\
-        processes and critical workflow tools [e.g., AGILE framework, Git, GitHub, GitLab].",
-        "▸ Provided resources to help students find meaningful open source projects of interest.",
+        "▸ Established a new career development-focused club targeting students’ understanding of the collaborative\
+        software development processes pertaining to open source projects.",
+        "▸ Introduced 55+ new students to the software development lifecycle and critical workflow tools [e.g., AGILE\
+        framework, Git, GitHub].",
+        "▸ Provided resources to help students find meaningful open source projects, based on skillset and personal\
+        interests.",
       ],
     },
     {

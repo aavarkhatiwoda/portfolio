@@ -30,7 +30,7 @@ function Home() {
 
 function RouteToResume() {
   window.location.replace(
-    "https://k-td.com/static/media/aavarkhatiwoda_resume_2025.8d849b930622de2f2bb1.pdf"
+    "https://k-td.com/static/media/aavarkhatiwoda_resume_2025.6afdd9493af24ea97c42.pdf"
   );
 }
 
