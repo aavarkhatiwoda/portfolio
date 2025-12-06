@@ -1,0 +1,32 @@
+@import '../../Components/Breakpoints'
+@import '../../Components/Colors.sass'
+@import '../../Components/Constants'
+@import '../../Components/Fonts'
+
+.interests_toplevel
+    width: 100vw
+
+.interests
+    @media screen and (min-width: $ss8min)
+        padding: $p8*4 $p8*8
+    @media screen and (max-width: $ss7)
+        padding: $p7*4 $p7*8
+    @media screen and (max-width: $ss6)
+        padding: $p6*4 $p6*8
+    @media screen and (max-width: $ss5)
+        padding: $p5*4 $p5*8
+    @media screen and (max-width: $ss4)
+        padding: $p4*4 $p4*4 $p4*8 $p4*4
+    @media screen and (max-width: $ss3)
+        padding: $p3*2
+    @media screen and (max-width: $ss2)
+        padding: $p2*2
+    @media screen and (max-width: $ss1)
+        padding: $p1*2
+    display: grid
+    @media screen and (min-width: $ss4min)
+        grid-template-columns: repeat(2, 1fr)
+
+.skills
+    &:hover
+        cursor: pointer

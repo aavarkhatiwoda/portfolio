@@ -1,0 +1,75 @@
+@import './Breakpoints'
+@import './Constants'
+@import './Colors'
+@import './Fonts'
+
+.cardslist_cards
+  border-radius: 5px
+  &:hover
+    transition: $t
+    background: $bc4
+    .cardslist_cards_name,
+    .cardslist_cards_text
+      color: $fc3
+    .cardslist_cards_bp
+      color: $fc2
+
+.cardslist_cards_image
+  @media screen and (min-width: $ss7min)
+    height: 60px
+  @media screen and (max-width: $ss6)
+    height: 30px
+  @media screen and (max-width: $ss2)
+    height: 20px
+
+
+@media screen and (min-width: $ss8min)
+  .cardslist_cards
+    border-radius: 10px
+    padding: $p8
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: $p8/4
+@media screen and (max-width: $ss7)
+  .cardslist_cards
+    padding: $p7
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: $p7/4
+@media screen and (max-width: $ss6)
+  .cardslist_cards
+    padding: $p6
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: $p6/4
+@media screen and (max-width: $ss5)
+  .cardslist_cards
+    padding: $p5
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: $p5/4
+@media screen and (max-width: $ss4)
+  .cardslist_cards
+    padding: $p4
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: $p4/4
+@media screen and (max-width: $ss3)
+  .cardslist_cards
+    padding: $p3
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: $p3/4
+@media screen and (max-width: $ss2)
+  .cardslist_cards
+    padding: $p2
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: $p2/4
+@media screen and (max-width: $ss1)
+  .cardslist_cards
+    padding: $p1
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: $p1/4
+    
