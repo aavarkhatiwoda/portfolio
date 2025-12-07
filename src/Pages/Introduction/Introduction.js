@@ -6,10 +6,7 @@ export default function Introduction() {
     <div className="introduction_toplevel">
       <div className="introduction">
         <div className="introduction_grid1">
-          <div
-            className="introduction_grid1_text fs3"
-            style={{ fontWeight: "bold" }}
-          >
+          <div className="introduction_grid1_text fs3 bold">
             Aavar Khatiwoda
           </div>
           <div className="introduction_grid1_text fs2">
@@ -42,14 +39,14 @@ function ShowMenuLinks() {
       <div>
         {menulinkslist.map((item) => (
           <ul>
-            <li className="introduction_grid1_links fs2 fc2">
+            <li className="introduction_grid1_links fs2 fc2 bold">
               <Link
                 activeClass="active"
                 to={item.id}
                 smooth={true}
-                duration={500}
+                duration={1000}
               >
-                <b>{item.name}</b>
+                {item.name}
               </Link>
             </li>
           </ul>

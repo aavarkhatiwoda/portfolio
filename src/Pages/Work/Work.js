@@ -7,7 +7,7 @@ export default function Work() {
       <div className="work">
         <div className="work_grid1" />
         <div className="work_grid2">
-          <div className="work_grid2_intro fs3" style={{ fontWeight: "bold" }}>
+          <div className="work_grid2_intro fs3 bold">
             Professional History
           </div>
           <WorkCardsList />

@@ -7,10 +7,7 @@ export default function Projects() {
       <div className="projects">
         <div className="projects_grid1" />
         <div className="projects_grid2">
-          <div
-            className="projects_grid2_intro fs3"
-            style={{ fontWeight: "bold" }}
-          >
+          <div className="projects_grid2_intro fs3 bold">
             Technical Projects
           </div>
           <ProjectsCardsList />

@@ -1,10 +1,10 @@
 # Personal Software Engineer Portfolio
 
 ## Overview
-This portfolio started in 2020 as a small inspiration to stand out among internship recruiters which has since spiraled into a dedicated and important project. It's meant to represent my resume in a website format, showcasing my education, work history, projects, and interests/hobbies. It was/is a way for potential internship recruiters, collegues, and professional connections to easily find and contact me.
+This portfolio started in 2020 as a small inspiration to stand out among internship recruiters which has since spiraled into a dedicated and important project. It's meant to represent my resume in a website format, showcasing my education, work history, projects, and interests/hobbies. It was/is a way for internship recruiters, collegues, and professional connections to easily find and contact me.
 
 ---
-## Tools used Stack
+## Tools Used
 - ReactJS
 - Sass
 - Codebase on GitHub

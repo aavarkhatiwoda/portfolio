@@ -107,10 +107,7 @@ export const WorkCardsList = () => {
 
   return (
     <div className="cardslist_toplevel">
-      <div
-        className="cardslist"
-        style={{ transform: `translate(-${activeIndex * 100}%)` }}
-      >
+      <div className="cardslist">
         {c.map((i) => {
           return <CardsListCards i={i} width={"100%"} />;
         })}

@@ -13,7 +13,7 @@ export const LeadershipCardsList = () => {
       technologies: [],
       description: "CS OpenSource at Virginia Tech · Career Development Resources",
       description2: "Jan 2024 - May 2024 · Blacksburg, VA",
-      link: "https://www.vt.edu",
+      link: "https://cs.vt.edu",
       content: [
         "▸ Established a new career development-focused club targeting students’ understanding of the collaborative\
         software development processes pertaining to open source projects.",
@@ -51,10 +51,7 @@ export const LeadershipCardsList = () => {
 
   return (
     <div className="cardslist_toplevel">
-      <div
-        className="cardslist"
-        style={{ transform: `translate(-${activeIndex * 100}%)` }}
-      >
+      <div className="cardslist">
         {c.map((i) => {
           return <CardsListCards i={i} width={"100%"} />;
         })}

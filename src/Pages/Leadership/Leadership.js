@@ -7,10 +7,7 @@ export default function Leadership() {
       <div className="leadership">
         <div className="leadership_grid1" />
         <div className="leadership_grid2">
-          <div
-            className="leadership_grid2_intro fs3"
-            style={{ fontWeight: "bold" }}
-          >
+          <div className="leadership_grid2_intro fs3 bold">
             Leadership
           </div>
           <LeadershipCardsList />

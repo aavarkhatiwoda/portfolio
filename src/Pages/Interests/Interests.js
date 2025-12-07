@@ -20,18 +20,18 @@ export default function Interests() {
               href={"https://www.lockheedmartin.com/en-us/index.html"}
               target="_blank"
               rel="noopener noreferrer"
-              className="link fc3"
+              className="link fc3 bold"
             >
-              <b>Lockheed Martin</b>
+              Lockheed Martin
             </a>{" "}
             . I graudated from{" "}
             <a
               href={"https://cs.vt.edu"}
               target="_blank"
               rel="noopener noreferrer"
-              className="link fc3"
+              className="link fc3 bold"
             >
-              <b>Virginia Tech</b>
+              Virginia Tech
             </a>{" "}
             with a bachelor's degree in computer science and a minor in
             mathematics.

@@ -10,10 +10,10 @@ export default function Footer() {
           to={"introduction_toplevel"}
           spy={true}
           smooth={true}
-          duration={500}
-          className="fs3 fc1 link"
+          duration={1000}
+          className="fs3 fc1 link bold"
         >
-          <b>Aavar Khatiwoda</b>
+          Aavar Khatiwoda
         </Link>
         <div className="footer_text fs1 fc1">
           Let's do great things together
