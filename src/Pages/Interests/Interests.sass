@@ -1,30 +1,30 @@
-@import '../../Components/Breakpoints'
-@import '../../Components/Colors.sass'
-@import '../../Components/Constants'
-@import '../../Components/Fonts'
+@use '../../Components/Breakpoints' as breakpoints
+@use '../../Components/Constants' as constants
+@use '../../Components/Colors' as colors
+@use '../../Components/Fonts' as fonts
 
 .interests_toplevel
     width: 100vw
 
 .interests
-    @media screen and (min-width: $ss8min)
-        padding: $p8*4 $p8*8
-    @media screen and (max-width: $ss7)
-        padding: $p7*4 $p7*8
-    @media screen and (max-width: $ss6)
-        padding: $p6*4 $p6*8
-    @media screen and (max-width: $ss5)
-        padding: $p5*4 $p5*8
-    @media screen and (max-width: $ss4)
-        padding: $p4*4 $p4*4 $p4*8 $p4*4
-    @media screen and (max-width: $ss3)
-        padding: $p3*2
-    @media screen and (max-width: $ss2)
-        padding: $p2*2
-    @media screen and (max-width: $ss1)
-        padding: $p1*2
+    @media screen and (min-width: breakpoints.$ss8min)
+        padding: constants.$p8*4 constants.$p8*8
+    @media screen and (max-width: breakpoints.$ss7)
+        padding: constants.$p7*4 constants.$p7*8
+    @media screen and (max-width: breakpoints.$ss6)
+        padding: constants.$p6*4 constants.$p6*8
+    @media screen and (max-width: breakpoints.$ss5)
+        padding: constants.$p5*4 constants.$p5*8
+    @media screen and (max-width: breakpoints.$ss4)
+        padding: constants.$p4*4 constants.$p4*4 constants.$p4*8 constants.$p4*4
+    @media screen and (max-width: breakpoints.$ss3)
+        padding: constants.$p3*2
+    @media screen and (max-width: breakpoints.$ss2)
+        padding: constants.$p2*2
+    @media screen and (max-width: breakpoints.$ss1)
+        padding: constants.$p1*2
     display: grid
-    @media screen and (min-width: $ss4min)
+    @media screen and (min-width: breakpoints.$ss4min)
         grid-template-columns: repeat(2, 1fr)
 
 .skills

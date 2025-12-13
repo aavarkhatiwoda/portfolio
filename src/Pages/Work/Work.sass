@@ -1,61 +1,61 @@
-@import '../../Components/Breakpoints'
-@import '../../Components/Constants'
-@import '../../Components/Colors'
-@import '../../Components/Fonts'
+@use '../../Components/Breakpoints' as breakpoints
+@use '../../Components/Constants' as constants
+@use '../../Components/Colors' as colors
+@use '../../Components/Fonts' as fonts
 
 .work_toplevel
     width: 100vw
 
 .work
     display: grid
-    @media screen and (min-width: $ss4min)
+    @media screen and (min-width: breakpoints.$ss4min)
         grid-template-columns: repeat(2, 1fr)
 
-@media screen and (min-width: $ss8min)
+@media screen and (min-width: breakpoints.$ss8min)
     .work_toplevel
-        padding: $p8*2 0 0 0
+        padding: constants.$p8*2 0 0 0
     .work
-        padding: $p8*2 $p8*8
+        padding: constants.$p8*2 constants.$p8*8
     .work_grid2_intro
-        padding-bottom: $p8
-@media screen and (max-width: $ss7)
+        padding-bottom: constants.$p8
+@media screen and (max-width: breakpoints.$ss7)
     .work_toplevel
-        padding: $p7*2 0 0 0
+        padding: constants.$p7*2 0 0 0
     .work
-        padding: $p7*2 $p7*8
+        padding: constants.$p7*2 constants.$p7*8
     .work_grid2_intro
-        padding-bottom: $p7
-@media screen and (max-width: $ss6)
+        padding-bottom: constants.$p7
+@media screen and (max-width: breakpoints.$ss6)
     .work_toplevel
-        padding: $p6*2 0 0 0
+        padding: constants.$p6*2 0 0 0
     .work
-        padding: $p6*2 $p6*8
+        padding: constants.$p6*2 constants.$p6*8
     .work_grid2_intro
-        padding-bottom: $p6
-@media screen and (max-width: $ss5)
+        padding-bottom: constants.$p6
+@media screen and (max-width: breakpoints.$ss5)
     .work_toplevel
-        padding: $p5*2 0 0 0
+        padding: constants.$p5*2 0 0 0
     .work
-        padding: $p5*2 $p5*8
+        padding: constants.$p5*2 constants.$p5*8
     .work_grid2_intro
-        padding-bottom: $p5
-@media screen and (max-width: $ss4)
+        padding-bottom: constants.$p5
+@media screen and (max-width: breakpoints.$ss4)
     .work
-        padding: $p4 $p4*4 $p4*8 $p4*4
+        padding: constants.$p4 constants.$p4*4 constants.$p4*8 constants.$p4*4
     .work_grid2_intro
-        padding-bottom: $p4
-@media screen and (max-width: $ss3)
+        padding-bottom: constants.$p4
+@media screen and (max-width: breakpoints.$ss3)
     .work
-        padding: $p3*2
+        padding: constants.$p3*2
     .work_grid2_intro
-        padding-bottom: $p3
-@media screen and (max-width: $ss2)
+        padding-bottom: constants.$p3
+@media screen and (max-width: breakpoints.$ss2)
     .work
-        padding: $p2*2
+        padding: constants.$p2*2
     .work_grid2_intro
-        padding-bottom: $p2
-@media screen and (max-width: $ss1)
+        padding-bottom: constants.$p2
+@media screen and (max-width: breakpoints.$ss1)
     .work
-        padding: $p1*2
+        padding: constants.$p1*2
     .work_grid2_intro
-        padding-bottom: $p1
+        padding-bottom: constants.$p1

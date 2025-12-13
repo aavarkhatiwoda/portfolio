@@ -1,3 +1,4 @@
+import './index.sass';
 import "./App.sass";
 import Introduction from "./Pages/Introduction/Introduction";
 import Interests from "./Pages/Interests/Interests";

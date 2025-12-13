@@ -1,75 +1,76 @@
-@import './Breakpoints'
-@import './Constants'
-@import './Colors'
-@import './Fonts'
+@use './Breakpoints' as breakpoints
+@use './Constants' as constants
+@use './Colors' as colors
+@use './Fonts' as fonts
+@use "sass:math"
 
 .cardslist_cards
   border-radius: 5px
   &:hover
-    transition: $t
-    background: $bc4
+    transition: constants.$t
+    background: colors.$bc4
     .cardslist_cards_name,
     .cardslist_cards_text
-      color: $fc3
+      color: colors.$fc3
     .cardslist_cards_bp
-      color: $fc2
+      color: colors.$fc2
 
 .cardslist_cards_image
-  @media screen and (min-width: $ss7min)
+  @media screen and (min-width: breakpoints.$ss7min)
     height: 60px
-  @media screen and (max-width: $ss6)
+  @media screen and (max-width: breakpoints.$ss6)
     height: 30px
-  @media screen and (max-width: $ss2)
+  @media screen and (max-width: breakpoints.$ss2)
     height: 20px
 
 
-@media screen and (min-width: $ss8min)
+@media screen and (min-width: breakpoints.$ss8min)
   .cardslist_cards
     border-radius: 10px
-    padding: $p8
+    padding: constants.$p8
   .cardslist_cards_bp,
   .skills_toplevel
-    margin-top: $p8/4
-@media screen and (max-width: $ss7)
+    margin-top: math.div(constants.$p8, 4)
+@media screen and (max-width: breakpoints.$ss7)
   .cardslist_cards
-    padding: $p7
+    padding: constants.$p7
   .cardslist_cards_bp,
   .skills_toplevel
-    margin-top: $p7/4
-@media screen and (max-width: $ss6)
+    margin-top: math.div(constants.$p7, 4)
+@media screen and (max-width: breakpoints.$ss6)
   .cardslist_cards
-    padding: $p6
+    padding: constants.$p6
   .cardslist_cards_bp,
   .skills_toplevel
-    margin-top: $p6/4
-@media screen and (max-width: $ss5)
+    margin-top: math.div(constants.$p6, 4)
+@media screen and (max-width: breakpoints.$ss5)
   .cardslist_cards
-    padding: $p5
+    padding: constants.$p5
   .cardslist_cards_bp,
   .skills_toplevel
-    margin-top: $p5/4
-@media screen and (max-width: $ss4)
+    margin-top: math.div(constants.$p5, 4)
+@media screen and (max-width: breakpoints.$ss4)
   .cardslist_cards
-    padding: $p4
+    padding: constants.$p4
   .cardslist_cards_bp,
   .skills_toplevel
-    margin-top: $p4/4
-@media screen and (max-width: $ss3)
+    margin-top: math.div(constants.$p4, 4)
+@media screen and (max-width: breakpoints.$ss3)
   .cardslist_cards
-    padding: $p3
+    padding: constants.$p3
   .cardslist_cards_bp,
   .skills_toplevel
-    margin-top: $p3/4
-@media screen and (max-width: $ss2)
+    margin-top: math.div(constants.$p3, 4)
+@media screen and (max-width: breakpoints.$ss2)
   .cardslist_cards
-    padding: $p2
+    padding: constants.$p2
   .cardslist_cards_bp,
   .skills_toplevel
-    margin-top: $p2/4
-@media screen and (max-width: $ss1)
+    margin-top: math.div(constants.$p2, 4)
+@media screen and (max-width: breakpoints.$ss1)
   .cardslist_cards
-    padding: $p1
+    padding: constants.$p1
   .cardslist_cards_bp,
   .skills_toplevel
-    margin-top: $p1/4
+    margin-top: math.div(constants.$p1, 4)
     

@@ -1,33 +1,33 @@
-@import '../../Components/Fonts'
-@import '../../Components/Colors'
-@import '../../Components/Constants'
-@import '../../Components/Breakpoints'
+@use '../../Components/Breakpoints' as breakpoints
+@use '../../Components/Constants' as constants
+@use '../../Components/Colors' as colors
+@use '../../Components/Fonts' as fonts
 
 .footer
   text-align: center
-  background: $bc5
+  background: colors.$bc5
   
-@media screen and (min-width: $ss8min)
+@media screen and (min-width: breakpoints.$ss8min)
   .footer
-    padding: $p8*4 0
-@media screen and (max-width: $ss7)
+    padding: constants.$p8*4 0
+@media screen and (max-width: breakpoints.$ss7)
   .footer
-    padding: $p7*4 0
-@media screen and (max-width: $ss6)
+    padding: constants.$p7*4 0
+@media screen and (max-width: breakpoints.$ss6)
   .footer
-    padding: $p6*4 0
-@media screen and (max-width: $ss5)
+    padding: constants.$p6*4 0
+@media screen and (max-width: breakpoints.$ss5)
   .footer
-    padding: $p5*4 0
-@media screen and (max-width: $ss4)
+    padding: constants.$p5*4 0
+@media screen and (max-width: breakpoints.$ss4)
   .footer
-    padding: $p4*4 0
-@media screen and (max-width: $ss3)
+    padding: constants.$p4*4 0
+@media screen and (max-width: breakpoints.$ss3)
   .footer
-    padding: $p3*4 0
-@media screen and (max-width: $ss2)
+    padding: constants.$p3*4 0
+@media screen and (max-width: breakpoints.$ss2)
   .footer
-    padding: $p2*4 0
-@media screen and (max-width: $ss1)
+    padding: constants.$p2*4 0
+@media screen and (max-width: breakpoints.$ss1)
   .footer
-    padding: $p1*4 0
+    padding: constants.$p1*4 0

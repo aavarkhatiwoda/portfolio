@@ -5,7 +5,7 @@ This portfolio started in 2020 as a small inspiration to stand out among interns
 
 ---
 ## Tools Used
-- ReactJS
+- ReactJS / Vite
 - Sass
 - Codebase on GitHub
 - Domain through Squarespace
@@ -15,11 +15,11 @@ This portfolio started in 2020 as a small inspiration to stand out among interns
 ## Running the Project Locally
 If you would like to clone and repurpose this project,
 
-- Install NodeJS / npm from nodejs.org
+- Install NodeJS / npm from nodejs.org, highly recommend Node 18 or newer
 - git clone the repository to a local location from ```github.com/aavarkhatiwoda/portfolio```
 - ```cd portfolio```
 - [Optionally] ```code .``` to launch project in VS Code (must have 'code' command installed in PATH)
-- Install dependencies with ```npm install sass react-router-dom react-scroll```
-- Start the development server with ```npm start```. Once the server starts, the site will be available at ```localhost:3000``` through a browser
+- Install dependencies with ```npm install```
+- Start the Vite development server with ```npm run dev```. Once the server starts, the site will be available at ```localhost:5173``` through a browser
 
 You may now make modifications to the project and see the project live-update in the browser.
