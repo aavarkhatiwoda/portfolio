@@ -1,0 +1,76 @@
+@use './Breakpoints' as breakpoints
+@use './Constants' as constants
+@use './Colors' as colors
+@use './Fonts' as fonts
+@use "sass:math"
+
+.cardslist_cards
+  border-radius: 5px
+  &:hover
+    transition: constants.$t
+    background: colors.$bc5
+    .cardslist_cards_name,
+    .cardslist_cards_text
+      color: colors.$fc3
+    .cardslist_cards_bp
+      color: colors.$fc2
+
+.cardslist_cards_image
+  @media screen and (min-width: breakpoints.$ss7min)
+    height: 60px
+  @media screen and (max-width: breakpoints.$ss6)
+    height: 30px
+  @media screen and (max-width: breakpoints.$ss2)
+    height: 20px
+
+
+@media screen and (min-width: breakpoints.$ss8min)
+  .cardslist_cards
+    border-radius: 10px
+    padding: constants.$p8
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: math.div(constants.$p8, 4)
+@media screen and (max-width: breakpoints.$ss7)
+  .cardslist_cards
+    padding: constants.$p7
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: math.div(constants.$p7, 4)
+@media screen and (max-width: breakpoints.$ss6)
+  .cardslist_cards
+    padding: constants.$p6
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: math.div(constants.$p6, 4)
+@media screen and (max-width: breakpoints.$ss5)
+  .cardslist_cards
+    padding: constants.$p5
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: math.div(constants.$p5, 4)
+@media screen and (max-width: breakpoints.$ss4)
+  .cardslist_cards
+    padding: constants.$p4
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: math.div(constants.$p4, 4)
+@media screen and (max-width: breakpoints.$ss3)
+  .cardslist_cards
+    padding: constants.$p3
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: math.div(constants.$p3, 4)
+@media screen and (max-width: breakpoints.$ss2)
+  .cardslist_cards
+    padding: constants.$p2
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: math.div(constants.$p2, 4)
+@media screen and (max-width: breakpoints.$ss1)
+  .cardslist_cards
+    padding: constants.$p1
+  .cardslist_cards_bp,
+  .skills_toplevel
+    margin-top: math.div(constants.$p1, 4)
+    

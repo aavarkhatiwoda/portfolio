@@ -1,0 +1,46 @@
+@use '../../Components/Breakpoints' as breakpoints
+@use '../../Components/Constants' as constants
+@use '../../Components/Colors' as colors
+@use '../../Components/Fonts' as fonts
+@use "sass:math"
+
+.introduction_toplevel
+    @media screen and (min-width: breakpoints.$ss4min)
+        position: absolute
+
+.introduction_grid1
+    @media screen and (min-width: breakpoints.$ss4min)
+        position: fixed
+
+.introduction
+    @media screen and (min-width: breakpoints.$ss8min)
+        padding: constants.$p8*4 constants.$p8*10
+    @media screen and (max-width: breakpoints.$ss7)
+        padding: constants.$p7*4 constants.$p7*10
+    @media screen and (max-width: breakpoints.$ss6)
+        padding: constants.$p6*4 constants.$p6*10
+    @media screen and (max-width: breakpoints.$ss5)
+        padding: constants.$p5*4 constants.$p5*10
+    @media screen and (max-width: breakpoints.$ss4)
+        padding: constants.$p4*4 calc(50vw - math.div(breakpoints.$ss3 - 8 * constants.$p4, 2))
+    @media screen and (max-width: breakpoints.$ss3)
+        padding: constants.$p3*4 0 constants.$p3*2 0
+    @media screen and (max-width: breakpoints.$ss2)
+        padding: constants.$p2*4 0 constants.$p2*2 0
+    @media screen and (max-width: breakpoints.$ss1)
+        padding: constants.$p1*4 0 constants.$p1*2 0
+    display: grid
+    @media screen and (min-width: breakpoints.$ss4min)
+        grid-template-columns: repeat(2, 1fr)
+
+@media screen and (max-width: breakpoints.$ss3)
+    .introduction_grid1
+        text-align: center
+    .introduction_grid1_links_toplevel
+        display: none
+
+.introduction_grid1_links
+    transition: constants.$t
+    &:hover
+        color: colors.$fc3
+        cursor: pointer

@@ -1,0 +1,33 @@
+@use '../../Components/Breakpoints' as breakpoints
+@use '../../Components/Constants' as constants
+@use '../../Components/Colors' as colors
+@use '../../Components/Fonts' as fonts
+
+.footer
+  text-align: center
+  background: colors.$bc3
+  
+@media screen and (min-width: breakpoints.$ss8min)
+  .footer
+    padding: constants.$p8*4 0
+@media screen and (max-width: breakpoints.$ss7)
+  .footer
+    padding: constants.$p7*4 0
+@media screen and (max-width: breakpoints.$ss6)
+  .footer
+    padding: constants.$p6*4 0
+@media screen and (max-width: breakpoints.$ss5)
+  .footer
+    padding: constants.$p5*4 0
+@media screen and (max-width: breakpoints.$ss4)
+  .footer
+    padding: constants.$p4*4 0
+@media screen and (max-width: breakpoints.$ss3)
+  .footer
+    padding: constants.$p3*4 0
+@media screen and (max-width: breakpoints.$ss2)
+  .footer
+    padding: constants.$p2*4 0
+@media screen and (max-width: breakpoints.$ss1)
+  .footer
+    padding: constants.$p1*4 0

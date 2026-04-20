@@ -1,0 +1,61 @@
+@use '../../Components/Breakpoints' as breakpoints
+@use '../../Components/Constants' as constants
+@use '../../Components/Colors' as colors
+@use '../../Components/Fonts' as fonts
+
+.projects_toplevel
+    width: 100vw
+
+.projects
+    display: grid
+    @media screen and (min-width: breakpoints.$ss4min)
+        grid-template-columns: repeat(2, 1fr)
+
+@media screen and (min-width: breakpoints.$ss8min)
+    .projects_toplevel
+        padding: constants.$p8*2 0 0 0
+    .projects
+        padding: constants.$p8*2 constants.$p8*8
+    .projects_grid2_intro
+        padding-bottom: constants.$p8
+@media screen and (max-width: breakpoints.$ss7)
+    .projects_toplevel
+        padding: constants.$p7*2 0 0 0
+    .projects
+        padding: constants.$p7*2 constants.$p7*8
+    .projects_grid2_intro
+        padding-bottom: constants.$p7
+@media screen and (max-width: breakpoints.$ss6)
+    .projects_toplevel
+        padding: constants.$p6*2 0 0 0
+    .projects
+        padding: constants.$p6*2 constants.$p6*8
+    .projects_grid2_intro
+        padding-bottom: constants.$p6
+@media screen and (max-width: breakpoints.$ss5)
+    .projects_toplevel
+        padding: constants.$p5*2 0 0 0
+    .projects
+        padding: constants.$p5*2 constants.$p5*8
+    .projects_grid2_intro
+        padding-bottom: constants.$p5
+@media screen and (max-width: breakpoints.$ss4)
+    .projects
+        padding: constants.$p4 constants.$p4*4 constants.$p4*8 constants.$p4*4
+    .projects_grid2_intro
+        padding-bottom: constants.$p4
+@media screen and (max-width: breakpoints.$ss3)
+    .projects
+        padding: constants.$p3*2
+    .projects_grid2_intro
+        padding-bottom: constants.$p3
+@media screen and (max-width: breakpoints.$ss2)
+    .projects
+        padding: constants.$p2*2
+    .projects_grid2_intro
+        padding-bottom: constants.$p2
+@media screen and (max-width: breakpoints.$ss1)
+    .projects
+        padding: constants.$p1*2
+    .projects_grid2_intro
+        padding-bottom: constants.$p1
