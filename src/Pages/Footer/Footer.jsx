@@ -11,14 +11,14 @@ export default function Footer() {
           spy={true}
           smooth={true}
           duration={1000}
-          className="fs3 fc4 link bold"
+          className="fs3 fc5 link bold"
         >
           Aavar Khatiwoda
         </Link>
-        <div className="footer_text fs1 fc4">
+        <div className="footer_text fs1 fc5">
           Let's do great things together
         </div>
-        <div className="footer_text footer_text_bottom fs1 fc4">
+        <div className="footer_text footer_text_bottom fs1 fc5">
           Made with ♥︎ with ReactJS
         </div>
       </div>
