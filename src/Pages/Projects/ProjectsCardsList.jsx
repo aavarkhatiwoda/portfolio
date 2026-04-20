@@ -18,7 +18,7 @@ export const ProjectsCardsList = () => {
       content: [
         "▸ Self-taught full stack ReactJS developer with over 5 years of experience. Built custom professional\
         software engineer portfolio page to highlight relevant technical skills, work history, and\
-        leadership/research experience",
+        leadership/research experience.",
         "▸ Emphasize a high-quality user interface and user experience through designing and implementing fully\
         responsive layouts optimized for screen sizes and resolutions up to 4k, providing interactive components\
         and a strong attention to detail.",
