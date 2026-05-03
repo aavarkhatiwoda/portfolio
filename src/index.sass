@@ -30,116 +30,113 @@ a
   transition: constants.$t
   &:hover
     cursor: pointer
-    color: colors.$fc2
+    color: colors.$fontcolor2
 
 .bold
   font-weight: bold
 
-.fs1,
-.fs2,
-.fs3,
-.fs4
-  color: colors.$fc2
+.fontsize1,
+.fontsize2,
+.fontsize3
+  color: colors.$fontcolor2
 
-.fc1
-  color: colors.$fc1
-.fc2
-  color: colors.$fc2
-.fc3
-  color: colors.$fc3
-.fc4
-  color: colors.$fc4
-.fc5
-  color: colors.$fc5
+.fontcolor1
+  color: colors.$fontcolor1
+.fontcolor2
+  color: colors.$fontcolor2
+.fontcolor3
+  color: colors.$fontcolor3
+.fontcolor4
+  color: colors.$fontcolor4
 
 @media screen and (min-width: breakpoints.$ss8min)
-  .fs1
-    font-size: fonts.$ss8-fs1
-  .fs2
-    font-size: fonts.$ss8-fs2
-  .fs3
-    font-size: fonts.$ss8-fs3
+  .fontsize1
+    font-size: fonts.$ss8-fontsize1
+  .fontsize2
+    font-size: fonts.$ss8-fontsize2
+  .fontsize3
+    font-size: fonts.$ss8-fontsize3
 @media screen and (max-width: breakpoints.$ss7)
-  .fs1
-    font-size: fonts.$ss7-fs1
-  .fs2
-    font-size: fonts.$ss7-fs2
-  .fs3
-    font-size: fonts.$ss7-fs3
+  .fontsize1
+    font-size: fonts.$ss7-fontsize1
+  .fontsize2
+    font-size: fonts.$ss7-fontsize2
+  .fontsize3
+    font-size: fonts.$ss7-fontsize3
 @media screen and (max-width: breakpoints.$ss6)
-  .fs1
-    font-size: fonts.$ss6-fs1
-  .fs2
-    font-size: fonts.$ss6-fs2
-  .fs3
-    font-size: fonts.$ss6-fs3
+  .fontsize1
+    font-size: fonts.$ss6-fontsize1
+  .fontsize2
+    font-size: fonts.$ss6-fontsize2
+  .fontsize3
+    font-size: fonts.$ss6-fontsize3
 @media screen and (max-width: breakpoints.$ss5)
-  .fs1
-    font-size: fonts.$ss5-fs1
-  .fs2
-    font-size: fonts.$ss5-fs2
-  .fs3
-    font-size: fonts.$ss5-fs3
+  .fontsize1
+    font-size: fonts.$ss5-fontsize1
+  .fontsize2
+    font-size: fonts.$ss5-fontsize2
+  .fontsize3
+    font-size: fonts.$ss5-fontsize3
 @media screen and (max-width: breakpoints.$ss4)
-  .fs1
-    font-size: fonts.$ss4-fs1
-  .fs2
-    font-size: fonts.$ss4-fs2
-  .fs3
-    font-size: fonts.$ss4-fs3
+  .fontsize1
+    font-size: fonts.$ss4-fontsize1
+  .fontsize2
+    font-size: fonts.$ss4-fontsize2
+  .fontsize3
+    font-size: fonts.$ss4-fontsize3
 @media screen and (max-width: breakpoints.$ss3)
-  .fs1
-    font-size: fonts.$ss3-fs1
-  .fs2
-    font-size: fonts.$ss3-fs2
-  .fs3
-    font-size: fonts.$ss3-fs3
+  .fontsize1
+    font-size: fonts.$ss3-fontsize1
+  .fontsize2
+    font-size: fonts.$ss3-fontsize2
+  .fontsize3
+    font-size: fonts.$ss3-fontsize3
 @media screen and (max-width: breakpoints.$ss2)
-  .fs1
-    font-size: fonts.$ss2-fs1
-  .fs2
-    font-size: fonts.$ss2-fs2
-  .fs3
-    font-size: fonts.$ss2-fs3
+  .fontsize1
+    font-size: fonts.$ss2-fontsize1
+  .fontsize2
+    font-size: fonts.$ss2-fontsize2
+  .fontsize3
+    font-size: fonts.$ss2-fontsize3
 @media screen and (max-width: breakpoints.$ss1)
-  .fs1
-    font-size: fonts.$ss1-fs1
-  .fs2
-    font-size: fonts.$ss1-fs2
-  .fs3
-    font-size: fonts.$ss1-fs3
+  .fontsize1
+    font-size: fonts.$ss1-fontsize1
+  .fontsize2
+    font-size: fonts.$ss1-fontsize2
+  .fontsize3
+    font-size: fonts.$ss1-fontsize3
 
 @media screen and (min-width: breakpoints.$ss8min)
-  .fs1,
-  .fs2
+  .fontsize1,
+  .fontsize2
     line-height: 50px
 @media screen and (max-width: breakpoints.$ss7)
-  .fs1,
-  .fs2
+  .fontsize1,
+  .fontsize2
     line-height: 38px
 @media screen and (max-width: breakpoints.$ss6)
-  .fs1,
-  .fs2
+  .fontsize1,
+  .fontsize2
     line-height: 25px
 @media screen and (max-width: breakpoints.$ss5)
-  .fs1,
-  .fs2
+  .fontsize1,
+  .fontsize2
     line-height: 22px
 @media screen and (max-width: breakpoints.$ss5)
-  .fs1,
-  .fs2
+  .fontsize1,
+  .fontsize2
     line-height: 22px
 @media screen and (max-width: breakpoints.$ss3)
-  .fs1,
-  .fs2
+  .fontsize1,
+  .fontsize2
     line-height: 22px
 @media screen and (max-width: breakpoints.$ss2)
-  .fs1,
-  .fs2
+  .fontsize1,
+  .fontsize2
     line-height: 22px
 @media screen and (max-width: breakpoints.$ss1)
-  .fs1,
-  .fs2
+  .fontsize1,
+  .fontsize2
     line-height: 22px
     
 .work_grid2_intro
@@ -185,3 +182,11 @@ a
     padding-top: constants.$p1
   .newline_small
     padding-top: math.div(constants.$p1, 2)
+
+.horizontal_line
+  transition: constants.$t
+  height: 1px
+  width: 100%
+  background: colors.$backgroundcolor2
+  @media screen and (min-width: breakpoints.$ss8min)
+    height: 2px

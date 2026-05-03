@@ -12,14 +12,15 @@ export const CardsListCards = ({ i, width }) => {
         className="cardslist_cards"
       >
         <img className="cardslist_cards_image" src={i.image} />
-        <div className="cardslist_cards_text fs1">
-          <b className="cardslist_cards_name fs2">{i.name}&ensp;</b> {/*➔*/}
+        <div className="cardslist_cards_text fontsize1">
+          <b className="cardslist_cards_name fontsize2">{i.name}&ensp;</b> {/*➔*/}
           <div>
             {i.description}
           </div>
           <div>
             {i.description2}
           </div>
+          <div className="horizontal_line" />
           {i.content.map((j) => (
             <li className="cardslist_cards_bp">{j}</li>
           ))}

@@ -1,7 +1,6 @@
 import "./Interests.sass";
 import "../../Components/Skills.sass";
 import React from "react";
-// import Résumé from "../../Components/Images/aavar_resume.pdf";
 
 export default function Interests() {
   return (
@@ -12,7 +11,7 @@ export default function Interests() {
         <div className="interests_grid1" />
 
         <div className="interests_grid2">
-          <div className="interests_grid2_text fs2">
+          <div className="interests_grid2_text fontsize2">
             Nice to meet you!
             <div className="newline" /> 
             I'm a software engineer at{" "}
@@ -20,37 +19,36 @@ export default function Interests() {
               href={"https://www.lockheedmartin.com/en-us/index.html"}
               target="_blank"
               rel="noopener noreferrer"
-              className="link fc3 bold"
+              className="link fontcolor3 bold"
             >
               Lockheed Martin
             </a>{" "}
-            . I graudated from{" "}
+            . I graduated from{" "}
             <a
               href={"https://cs.vt.edu"}
               target="_blank"
               rel="noopener noreferrer"
-              className="link fc3 bold"
+              className="link fontcolor3 bold"
             >
               Virginia Tech
             </a>{" "}
-            with a bachelor's degree in computer science and a minor in
-            mathematics.
+            with an undergraduate degree in computer science and a minor in mathematics, and I am
+            currently exploring the potential to return to complete my master's.
             <div className="newline" />
             I am passionate about driving the success of the team and our products by delivering
-            robust and scalable architectures. I have a proven record of delivering high-impact
-            solutions to system maintenance and analysis, maintaining & expanding custom system
-            configurations across client applications, and preserving & modernizing team
-            documentation.
+            robust and scalable architectures. I have a proven record of leading research teams,
+            spearheading research execution, and delivering high-impact solutions to system
+            maintenance and analysis. In my free time, I enjoy experimenting with AI automation.
             <div className="newline" /> 
             Outside of technology, I love playing music on my piano and guitar. I enjoy recording
             songs, both covers and random melodies, through Garage Band to see where it takes me
             on my music journey.
             <div className="newline" />
             <div className="newline" />
-            <b className="fs1">TECHNOLOGIES I AM FAMILIAR WITH:</b>
+            <b className="fontsize1">TECHNOLOGIES I AM FAMILIAR WITH:</b>
             <ShowSkills />
             <div className="newline_small" />
-            <b className="fs1">CONTACT AND SOCIALS:</b>
+            <b className="fontsize1">CONTACT AND SOCIALS:</b>
             <ShowSocials />
           </div>
         </div>
@@ -61,6 +59,7 @@ export default function Interests() {
 
 function ShowSkills() {
   const s = [
+    // Progarmming languages
     "Python",
     "JavaScript",
     "Java",
@@ -68,21 +67,29 @@ function ShowSkills() {
     "C",
     "Bash",
     "RISC-V Assembly",
+
+    // Web development
     "ReactJS",
     "JSX",
     "Sass",
-    "Netlify",
-    "Vim",
-    "Terminal",
+
+    // Operating systems
     "Linux / Red Hat Enterprise Linux",
     "Virtual Machines",
+
+    // Development tools
+    "Terminal",
+    "Vim",
+    "Git",
+
+    // Online services
     "Jenkins",
     "Jira",
   ];
   return (
     <div className="skills_toplevel">
       {s.map((i) => (
-        <a className="skills fs1">{i}</a>
+        <a className="skills fontsize1">{i}</a>
       ))}
     </div>
   );
@@ -99,7 +106,7 @@ function ShowSocials() {
     <div className="skills_toplevel">
       {s.map((i) => (
         <a
-          className="skills fs1"
+          className="skills fontsize1"
           href={i.link}
           target="_blank"
           rel="noopener noreferrer"

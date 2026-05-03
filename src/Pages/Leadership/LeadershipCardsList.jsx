@@ -15,8 +15,7 @@ export const LeadershipCardsList = () => {
       description2: "Jan 2024 - May 2024, Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
-        "▸ Established a new career development-focused club targeting students’ understanding of the collaborative\
-        software development processes pertaining to open source projects.",
+        "▸ Established a new career development-focused club targeting students’ understanding of AGILE software development.",
         "▸ Introduced 55+ new students to the software development lifecycle and critical workflow tools [e.g., AGILE\
         framework, Git, GitHub].",
         "▸ Provided resources to help students find meaningful open source projects, based on skillset and personal\
@@ -33,8 +32,6 @@ export const LeadershipCardsList = () => {
       content: [
         "▸ Tutored 30+ elementary, middle, and high school students core mathematics course\
         topics [through calc I], in addition to SAT/ACT prep.",
-        "▸ Targeted personalized key areas of improvement, emphasizing experimentation of current\
-        topics with previously known material.",
         "▸ Helped students reach a higher level of understanding in coursework and advance topics,\
         resulting in higher quiz and test scores post-instruction.",
       ],

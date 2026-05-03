@@ -16,12 +16,10 @@ export const ProjectsCardsList = () => {
       description2: "2020 - Present, Continuous Learning & Development",
       link: "https://github.com/aavarkhatiwoda/portfolio",
       content: [
-        "▸ Self-taught full stack ReactJS developer with over 5 years of experience. Built custom professional\
-        software engineer portfolio page to highlight relevant technical skills, work history, and\
-        leadership/research experience.",
-        "▸ Emphasize a high-quality user interface and user experience through designing and implementing fully\
-        responsive layouts optimized for screen sizes and resolutions up to 4k, providing interactive components\
-        and a strong attention to detail.",
+        "▸ Self-taught ReactJS developer with 5+ years of experience. Built custom professional software engineer\
+        portfolio page to highlight relevant technical expertise and leadership/research experience.",
+        "▸ Emphasize high-quality user interface and user experience through designing fully custom and responsive\
+        layouts optimized for common screen sizes up to 4k resolution.",
       ],
     },
     {
@@ -57,14 +55,6 @@ export const ProjectsCardsList = () => {
       ],
     },
   ];
-
-  // const updateIndex = (newIndex) => {
-  //   newIndex = newIndex % c.length;
-  //   if (newIndex < 0) {
-  //     newIndex = c.length - 1;
-  //   }
-  //   setActiveIndex(newIndex);
-  // };
 
   return (
     <div className="cardslist_toplevel">

@@ -16,10 +16,11 @@ export const WorkCardsList = () => {
         "C++",
         "C",
         "Bash",
-        "Vim",
-        "Terminal",
         "Linux / Red Hat Enterprise Linux",
         "Virtual Machines",
+        "Terminal",
+        "Vim",
+        "Git",
         "Jenkins",
         "Jira",
       ],
@@ -29,13 +30,11 @@ export const WorkCardsList = () => {
       content: [
         "▸ Provide high-fidelity development, implementation, and maintenance of robust and scalable internal/client\
         applications, and extend functionality of legacy tools.",
-        "▸ Lead new internal research project focused on transmitting data from specialized equipment to critical\
-        systems. Spearhead architecture planning, feature development, story writing, and story execution/completion\
-        toward research initiative. Configure hardware and validate hardware communication via tcpump/tcpreplay.",
-        "▸ Standardize outdated hostnaming protocols across key systems into a unified notation, improving\
-        maintainability of networking infrastructure.",
-        "▸ Enhance automated capture and export of classified/unclassified system logs, aiding in early-detection and\
-        analysis of failing functionality, reducing downtime of critical system processes and tools."
+        "▸ Lead new internal research project of 10+ engineers focused on transmitting data from specialized hardware\
+        to project-critical systems. Coordinate architecture planning, story writing, and execution over 5+ months, and\
+        configure hardware, and validate communication on classified and unclassified systems.",
+        "▸ Enhance automated capture and export of classified and unclassified system logs, aiding in early-detection and\
+        analysis of failing functionality, reducing downtime of critical system processes and tools.",
       ],
     },
     {
@@ -60,10 +59,8 @@ export const WorkCardsList = () => {
       description2: "Aug 2023 - Dec 2023, Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
-        "▸ Aided 200+ college students in building a critical understanding of object-oriented programming concepts\
-        in Java.",
-        "▸ Helped students improve efficiency of code by recommending better implementations of data structures and\
-        algorithms.",
+        "▸ Aided 200+ college students in building critical object-oriented programming foundations in Java.",
+        "▸ Helped students optimize code by recommending better implementations of data structures and algorithms.",
       ],
     },
     {
@@ -73,6 +70,9 @@ export const WorkCardsList = () => {
         "Python",
         "JSON",
         "Groovy Scripts",
+        "Terminal",
+        "Vim",
+        "Git",
         "Jenkins",
         "Jira",
         "Docker",
@@ -83,11 +83,10 @@ export const WorkCardsList = () => {
       link: "https://www.northropgrumman.com",
       content: [
         "▸ Led team to achieve above-expected story completion targets through effectively coordinating resources\
-        toward critical stories of interest, avoiding bottlenecks and expediting team's success as rotating scrum\
-        lead.",
+        and prioritizing high-risk stories as rotating scrum lead.",
         "▸ Developed new health monitoring tools on the Jenkins pipeline to better diagnose and prevent impending\
         build failures, implementing diagnostic filtering of health data on OpenSearch Dashboards.",
-        "▸ Increased efficiency of Jenkins pipeline data collection scripts to yield a -20% time overhead in the data\
+        "▸ Increased efficiency of Jenkins pipeline data collection scripts to yield a 20% time reduction in the data\
         collection process.",
       ],
     },

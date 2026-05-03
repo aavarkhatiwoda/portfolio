@@ -6,13 +6,13 @@ export default function Introduction() {
     <div className="introduction_toplevel">
       <div className="introduction">
         <div className="introduction_grid1">
-          <div className="introduction_grid1_text fs3 bold">
+          <div className="introduction_grid1_text fontsize3 bold">
             Aavar Khatiwoda
           </div>
-          <div className="introduction_grid1_text fs2">
+          <div className="introduction_grid1_text fontsize2">
             A software engineer
           </div>
-          <div className="introduction_grid1_text fs1">
+          <div className="introduction_grid1_text fontsize1">
             and music enthusiast
           </div>
           <ShowMenuLinks />
@@ -39,7 +39,7 @@ function ShowMenuLinks() {
       <div>
         {menulinkslist.map((item) => (
           <ul>
-            <li className="introduction_grid1_links fs2 fc2 bold">
+            <li className="introduction_grid1_links fontsize2 fontcolor2 bold">
               <Link
                 activeClass="active"
                 to={item.id}
