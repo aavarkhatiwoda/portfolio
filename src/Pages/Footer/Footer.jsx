@@ -15,10 +15,10 @@ export default function Footer() {
         >
           Aavar Khatiwoda
         </Link>
-        <div className="footer_text fontsize1 fontcolor4">
+        <div className="fontsize2 fontcolor4">
           Let's do great things together
         </div>
-        <div className="footer_text footer_text_bottom fontsize1 fontcolor4">
+        <div className="fontsize1 fontcolor4">
           Made with ♥︎ with ReactJS
         </div>
       </div>

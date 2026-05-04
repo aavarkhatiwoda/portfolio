@@ -15,7 +15,7 @@ export const CardsListCards = ({ i, width }) => {
         <div className="cardslist_cards_text fontsize1">
           <b className="cardslist_cards_name fontsize2">{i.name}&ensp;</b> {/*➔*/}
           <div>
-            {i.description}
+            <b>{i.description}</b>
           </div>
           <div>
             {i.description2}
