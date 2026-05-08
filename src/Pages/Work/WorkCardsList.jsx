@@ -24,8 +24,8 @@ export const WorkCardsList = () => {
         "Jenkins",
         "Jira",
       ],
-      description: "Lockheed Martin",
-      description2: "May 2024 - Present, Manassas, VA, Secret Clearance",
+      company: "Lockheed Martin",
+      company_information: "May 2024 - Present, Manassas, VA, Secret Clearance",
       link: "https://www.lockheedmartin.com/en-us/index.html",
       content: [
         "▸ Provide high-fidelity development, implementation, and maintenance of robust and scalable internal/client\
@@ -41,8 +41,8 @@ export const WorkCardsList = () => {
       image: VirginiaTech,
       name: "Undergraduate Research Assistant",
       technologies: ["Python", "C++", "C"],
-      description: "CS 4994 - Undergraduate Research",
-      description2: "Jan 2024 - May 2024, Blacksburg, VA",
+      company: "CS 4994 - Undergraduate Research",
+      company_information: "Jan 2024 - May 2024, Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
         "▸ Designed a novel 3-step algorithm tailored to specificifations of memory to resolve memory bandwidth\
@@ -55,8 +55,8 @@ export const WorkCardsList = () => {
       image: VirginiaTech,
       name: "Undergraudate Teaching Assistant",
       technologies: ["Java"],
-      description: "CS 1114 - Introduction to Software Design",
-      description2: "Aug 2023 - Dec 2023, Blacksburg, VA",
+      company: "CS 1114 - Introduction to Software Design",
+      company_information: "Aug 2023 - Dec 2023, Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
         "▸ Aided 200+ college students in building critical object-oriented programming foundations in Java.",
@@ -78,8 +78,8 @@ export const WorkCardsList = () => {
         "Docker",
         "OpenSearch Dashboards",
       ],
-      description: "Northrop Grumman",
-      description2: "Jun 2023 - Aug 2023, Baltimore, MD, Secret Clearance",
+      company: "Northrop Grumman",
+      company_information: "Jun 2023 - Aug 2023, Baltimore, MD, Secret Clearance",
       link: "https://www.northropgrumman.com",
       content: [
         "▸ Led team to achieve above-expected story completion targets through effectively coordinating resources\
@@ -101,8 +101,8 @@ export const WorkCardsList = () => {
   };
 
   return (
-    <div className="cardslist_toplevel">
-      <div className="cardslist">
+    <div className="cardslist_work_toplevel">
+      <div className="cardslist_work">
         {c.map((i) => {
           return <CardsListCards i={i} width={"100%"} />;
         })}

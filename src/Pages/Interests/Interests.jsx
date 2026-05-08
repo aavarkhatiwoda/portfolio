@@ -6,12 +6,8 @@ export default function Interests() {
   return (
     <div className="interests_toplevel">
       <div className="interests">
-        
-        {/* interests_grid1 is blank */}
-        <div className="interests_grid1" />
 
-        <div className="interests_grid2">
-          <div className="interests_grid2_text fontsize2">
+          <div className="interests_text fontsize2">
             Nice to meet you!
             <div className="newline" /> 
             I'm a software engineer at{" "}
@@ -33,7 +29,16 @@ export default function Interests() {
               Virginia Tech
             </a>{" "}
             with an undergraduate degree in computer science and a minor in mathematics, and I am
-            currently exploring the potential to return to complete my master's.
+            currently exploring the potential to return to complete my master's. Take a look at my{" "}
+            <a
+              href={"/resume.pdf"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link fontcolor3 bold"
+            >
+              Résumé
+            </a>{" "}
+            !
             <div className="newline" />
             I am passionate about driving the success of the team and our products by delivering
             robust and scalable architectures. I have a proven record of leading research teams,
@@ -51,7 +56,10 @@ export default function Interests() {
             <b className="fontsize1">CONTACT AND SOCIALS:</b>
             <ShowSocials />
           </div>
-        </div>
+
+
+
+
       </div>
     </div>
   );
@@ -97,7 +105,7 @@ function ShowSkills() {
 
 function ShowSocials() {
   const s = [
-    { name: "Résumé", link: "/aavar_resume.pdf" },
+    { name: "Résumé", link: "/resume.pdf" },
     { name: "GitHub", link: "https://www.github.com/aavarkhatiwoda" },
     { name: "LinkedIn", link: "https://linkedin.com/in/aavar" },
     { name: "Instagram", link: "https://www.instagram.com/aavarkhatiwada/" },

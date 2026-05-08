@@ -1,17 +1,15 @@
-import "./Work.sass";
 import { WorkCardsList } from "./WorkCardsList";
 
 export default function Work() {
   return (
-    <div className="work_toplevel" id="work">
-      <div className="work">
-        <div className="work_grid1" />
-        <div className="work_grid2">
-          <div className="work_grid2_intro fontsize3 bold">
+    <div className="informationpage_toplevel" id="work">
+      <div className="informationpage">
+
+          <div className="informationpage_title fontsize3 bold">
             Professional History
           </div>
           <WorkCardsList />
-        </div>
+
       </div>
     </div>
   );

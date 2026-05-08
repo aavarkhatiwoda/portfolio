@@ -1,17 +1,15 @@
-import "./Leadership.sass";
 import { LeadershipCardsList } from "./LeadershipCardsList";
 
 export default function Leadership() {
   return (
-    <div className="leadership_toplevel" id="leadership">
-      <div className="leadership">
-        <div className="leadership_grid1" />
-        <div className="leadership_grid2">
-          <div className="leadership_grid2_intro fontsize3 bold">
+    <div className="informationpage_toplevel" id="leadership">
+      <div className="informationpage">
+
+          <div className="informationpage_title fontsize3 bold">
             Leadership
           </div>
           <LeadershipCardsList />
-        </div>
+
       </div>
     </div>
   );

@@ -11,8 +11,8 @@ export const LeadershipCardsList = () => {
       image: CSOS,
       name: "Founding Vice President",
       technologies: [],
-      description: "CS OpenSource at Virginia Tech, Career Development Resources",
-      description2: "Jan 2024 - May 2024, Blacksburg, VA",
+      company: "CS OpenSource at Virginia Tech, Career Development Resources",
+      company_information: "Jan 2024 - May 2024, Blacksburg, VA",
       link: "https://cs.vt.edu",
       content: [
         "▸ Established a new career development-focused club targeting students’ understanding of AGILE software development.",
@@ -26,8 +26,8 @@ export const LeadershipCardsList = () => {
       image: Mathnasium,
       name: "Mathematics Tutor",
       technologies: [],
-      description: "Mathnasium",
-      description2: "Oct 2020 - Jun 2021, Falls Church, VA",
+      company: "Mathnasium",
+      company_information: "Oct 2020 - Jun 2021, Falls Church, VA",
       link: "https://www.mathnasium.com/fallschurch/schedules",
       content: [
         "▸ Tutored 30+ elementary, middle, and high school students core mathematics course\
@@ -47,8 +47,8 @@ export const LeadershipCardsList = () => {
   };
 
   return (
-    <div className="cardslist_toplevel">
-      <div className="cardslist">
+    <div className="cardslist_leadership_toplevel">
+      <div className="cardslist_leadership">
         {c.map((i) => {
           return <CardsListCards i={i} width={"100%"} />;
         })}

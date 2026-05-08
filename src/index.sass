@@ -4,10 +4,12 @@
 @use './Components/Fonts' as fonts
 @use "sass:math"
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body
   margin: 0
-  font-family: 'Work Sans', Helvetica, Arial, sans-serif
+  font-family: 'Ubuntu Mono', 'Work Sans', Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
@@ -49,135 +51,135 @@ a
 .fontcolor4
   color: colors.$fontcolor4
 
-@media screen and (min-width: breakpoints.$ss8min)
+@media screen and (min-width: breakpoints.$screensize8min)
   .fontsize1
-    font-size: fonts.$ss8-fontsize1
+    font-size: fonts.$screensize8-fontsize1
   .fontsize2
-    font-size: fonts.$ss8-fontsize2
+    font-size: fonts.$screensize8-fontsize2
   .fontsize3
-    font-size: fonts.$ss8-fontsize3
-@media screen and (max-width: breakpoints.$ss7)
+    font-size: fonts.$screensize8-fontsize3
+@media screen and (max-width: breakpoints.$screensize7)
   .fontsize1
-    font-size: fonts.$ss7-fontsize1
+    font-size: fonts.$screensize7-fontsize1
   .fontsize2
-    font-size: fonts.$ss7-fontsize2
+    font-size: fonts.$screensize7-fontsize2
   .fontsize3
-    font-size: fonts.$ss7-fontsize3
-@media screen and (max-width: breakpoints.$ss6)
+    font-size: fonts.$screensize7-fontsize3
+@media screen and (max-width: breakpoints.$screensize6)
   .fontsize1
-    font-size: fonts.$ss6-fontsize1
+    font-size: fonts.$screensize6-fontsize1
   .fontsize2
-    font-size: fonts.$ss6-fontsize2
+    font-size: fonts.$screensize6-fontsize2
   .fontsize3
-    font-size: fonts.$ss6-fontsize3
-@media screen and (max-width: breakpoints.$ss5)
+    font-size: fonts.$screensize6-fontsize3
+@media screen and (max-width: breakpoints.$screensize5)
   .fontsize1
-    font-size: fonts.$ss5-fontsize1
+    font-size: fonts.$screensize5-fontsize1
   .fontsize2
-    font-size: fonts.$ss5-fontsize2
+    font-size: fonts.$screensize5-fontsize2
   .fontsize3
-    font-size: fonts.$ss5-fontsize3
-@media screen and (max-width: breakpoints.$ss4)
+    font-size: fonts.$screensize5-fontsize3
+@media screen and (max-width: breakpoints.$screensize4)
   .fontsize1
-    font-size: fonts.$ss4-fontsize1
+    font-size: fonts.$screensize4-fontsize1
   .fontsize2
-    font-size: fonts.$ss4-fontsize2
+    font-size: fonts.$screensize4-fontsize2
   .fontsize3
-    font-size: fonts.$ss4-fontsize3
-@media screen and (max-width: breakpoints.$ss3)
+    font-size: fonts.$screensize4-fontsize3
+@media screen and (max-width: breakpoints.$screensize3)
   .fontsize1
-    font-size: fonts.$ss3-fontsize1
+    font-size: fonts.$screensize3-fontsize1
   .fontsize2
-    font-size: fonts.$ss3-fontsize2
+    font-size: fonts.$screensize3-fontsize2
   .fontsize3
-    font-size: fonts.$ss3-fontsize3
-@media screen and (max-width: breakpoints.$ss2)
+    font-size: fonts.$screensize3-fontsize3
+@media screen and (max-width: breakpoints.$screensize2)
   .fontsize1
-    font-size: fonts.$ss2-fontsize1
+    font-size: fonts.$screensize2-fontsize1
   .fontsize2
-    font-size: fonts.$ss2-fontsize2
+    font-size: fonts.$screensize2-fontsize2
   .fontsize3
-    font-size: fonts.$ss2-fontsize3
-@media screen and (max-width: breakpoints.$ss1)
+    font-size: fonts.$screensize2-fontsize3
+@media screen and (max-width: breakpoints.$screensize1)
   .fontsize1
-    font-size: fonts.$ss1-fontsize1
+    font-size: fonts.$screensize1-fontsize1
   .fontsize2
-    font-size: fonts.$ss1-fontsize2
+    font-size: fonts.$screensize1-fontsize2
   .fontsize3
-    font-size: fonts.$ss1-fontsize3
+    font-size: fonts.$screensize1-fontsize3
 
-@media screen and (min-width: breakpoints.$ss8min)
+@media screen and (min-width: breakpoints.$screensize8min)
   .fontsize1,
   .fontsize2
     line-height: 50px
-@media screen and (max-width: breakpoints.$ss7)
+@media screen and (max-width: breakpoints.$screensize7)
   .fontsize1,
   .fontsize2
     line-height: 38px
-@media screen and (max-width: breakpoints.$ss6)
+@media screen and (max-width: breakpoints.$screensize6)
   .fontsize1,
   .fontsize2
     line-height: 25px
-@media screen and (max-width: breakpoints.$ss5)
+@media screen and (max-width: breakpoints.$screensize5)
   .fontsize1,
   .fontsize2
     line-height: 22px
-@media screen and (max-width: breakpoints.$ss5)
+@media screen and (max-width: breakpoints.$screensize5)
   .fontsize1,
   .fontsize2
     line-height: 22px
-@media screen and (max-width: breakpoints.$ss3)
+@media screen and (max-width: breakpoints.$screensize3)
   .fontsize1,
   .fontsize2
     line-height: 22px
-@media screen and (max-width: breakpoints.$ss2)
+@media screen and (max-width: breakpoints.$screensize2)
   .fontsize1,
   .fontsize2
     line-height: 22px
-@media screen and (max-width: breakpoints.$ss1)
+@media screen and (max-width: breakpoints.$screensize1)
   .fontsize1,
   .fontsize2
     line-height: 22px
     
-.work_grid2_intro
+.work_intro
     padding-bottom: 25px
 
-@media screen and (min-width: breakpoints.$ss8min)
+@media screen and (min-width: breakpoints.$screensize8min)
   .newline
     padding-top: constants.$p8
   .newline_small
     padding-top: math.div(constants.$p8, 2)
-@media screen and (max-width: breakpoints.$ss7)
+@media screen and (max-width: breakpoints.$screensize7)
   .newline
     padding-top: constants.$p7
   .newline_small
     padding-top: math.div(constants.$p7, 2)
-@media screen and (max-width: breakpoints.$ss6)
+@media screen and (max-width: breakpoints.$screensize6)
   .newline
     padding-top: constants.$p6
   .newline_small
     padding-top: math.div(constants.$p6, 2)
-@media screen and (max-width: breakpoints.$ss5)
+@media screen and (max-width: breakpoints.$screensize5)
   .newline
     padding-top: constants.$p5
   .newline_small
     padding-top: math.div(constants.$p5, 2)
-@media screen and (max-width: breakpoints.$ss4)
+@media screen and (max-width: breakpoints.$screensize4)
   .newline
     padding-top: constants.$p4
   .newline_small
     padding-top: math.div(constants.$p4, 2)
-@media screen and (max-width: breakpoints.$ss3)
+@media screen and (max-width: breakpoints.$screensize3)
   .newline
     padding-top: constants.$p3
   .newline_small
     padding-top: math.div(constants.$p3, 2)
-@media screen and (max-width: breakpoints.$ss2)
+@media screen and (max-width: breakpoints.$screensize2)
   .newline
     padding-top: constants.$p2
   .newline_small
     padding-top: math.div(constants.$p2, 2)
-@media screen and (max-width: breakpoints.$ss1)
+@media screen and (max-width: breakpoints.$screensize1)
   .newline
     padding-top: constants.$p1
   .newline_small
@@ -188,5 +190,59 @@ a
   height: 1px
   width: 100%
   background: colors.$backgroundcolor5
-  @media screen and (min-width: breakpoints.$ss8min)
+  @media screen and (min-width: breakpoints.$screensize8min)
     height: 2px
+
+.informationpage
+    display: grid
+    @media screen and (min-width: breakpoints.$screensize4min)
+        grid-template-columns: repeat(1, 1fr)
+
+@media screen and (min-width: breakpoints.$screensize8min)
+    .informationpage_toplevel
+        padding: constants.$p8*2 0 0 0
+    .informationpage
+        padding: constants.$p8*2 constants.$p8*8
+    .informationpage_title
+        padding-bottom: constants.$p8
+@media screen and (max-width: breakpoints.$screensize7)
+    .informationpage_toplevel
+        padding: constants.$p7*2 0 0 0
+    .informationpage
+        padding: constants.$p7*2 constants.$p7*8
+    .informationpage_title
+        padding-bottom: constants.$p7
+@media screen and (max-width: breakpoints.$screensize6)
+    .informationpage_toplevel
+        padding: constants.$p6*2 0 0 0
+    .informationpage
+        padding: constants.$p6*2 constants.$p6*8
+    .informationpage_title
+        padding-bottom: constants.$p6
+@media screen and (max-width: breakpoints.$screensize5)
+    .informationpage_toplevel
+        padding: constants.$p5*2 0 0 0
+    .informationpage
+        padding: constants.$p5*2 constants.$p5*8
+    .informationpage_title
+        padding-bottom: constants.$p5
+@media screen and (max-width: breakpoints.$screensize4)
+    .informationpage
+        padding: constants.$p4
+    .informationpage_title
+        padding-bottom: constants.$p4
+@media screen and (max-width: breakpoints.$screensize3)
+    .informationpage
+        padding: constants.$p3*3
+    .informationpage_title
+        padding-bottom: constants.$p3
+@media screen and (max-width: breakpoints.$screensize2)
+    .informationpage
+        padding: constants.$p2*3
+    .informationpage_title
+        padding-bottom: constants.$p2
+@media screen and (max-width: breakpoints.$screensize1)
+    .informationpage
+        padding: constants.$p1*3
+    .informationpage_title
+        padding-bottom: constants.$p1

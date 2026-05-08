@@ -1,25 +1,24 @@
 import { Link, animateScroll as scroll } from "react-scroll";
+import Name from "../../Components/Images/name.svg";
 import "./Introduction.sass";
 
 export default function Introduction() {
   return (
     <div className="introduction_toplevel">
-      <div className="introduction">
-        <div className="introduction_grid1">
-          <div className="introduction_grid1_text fontsize3 bold">
-            Aavar Khatiwoda
+      <div className="introduction fontsize2">
+
+          <div>
+            <img className="introduction_name_svg" src={Name} />
           </div>
-          <div className="introduction_grid1_text fontsize2">
+          <div>
             A software engineer
           </div>
-          <div className="introduction_grid1_text fontsize1">
+          <div>
             and music enthusiast
           </div>
           <ShowMenuLinks />
-        </div>
 
-        {/* introduction_grid2 is blank */}
-        <div className="introduction_grid2" />
+
       </div>
     </div>
   );
@@ -27,19 +26,24 @@ export default function Introduction() {
 
 function ShowMenuLinks() {
   const menulinkslist = [
-    { name: "HOME", id: "introduction_toplevel" },
-    { name: "PROFESSIONAL HISTORY", id: "work_toplevel" },
-    { name: "TECHNICAL PROJECTS", id: "projects_toplevel" },
-    { name: "LEADERSHIP", id: "leadership_toplevel" },
+    { name: "HOME", id: "interests_toplevel" },
+    { name: "PROFESSIONAL HISTORY", id: "work" },
+    { name: "TECHNICAL PROJECTS", id: "projects" },
+    { name: "LEADERSHIP", id: "leadership" },
   ];
   return (
-    <div className="introduction_grid1_links_toplevel">
+    <div>
+
+      {/* <div className="newline" />
       <div className="newline" />
-      <div className="newline" />
-      <div>
+
+      <div className="introduction_links">
         {menulinkslist.map((item) => (
-          <ul>
-            <li className="introduction_grid1_links fontsize2 fontcolor2 bold">
+          <ul
+            key={item.id}
+            className="fontsize2 fontcolor2 bold single_link"
+          >
+            <li>
               <Link
                 activeClass="active"
                 to={item.id}
@@ -51,7 +55,8 @@ function ShowMenuLinks() {
             </li>
           </ul>
         ))}
-      </div>
+      </div> */}
+
     </div>
   );
 }

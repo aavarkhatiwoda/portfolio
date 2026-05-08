@@ -18,12 +18,14 @@ import {
 function Home() {
   return (
     <div className="app_toplevel">
-      <div className="app_mainpage_nofooter">
-        <Introduction />
-        <Interests />
-        <Work />
-        <Projects />
-        <Leadership />
+      <div className="app_mainpage_nofooter_upper">
+        <div className="app_mainpage_nofooter">
+          <Introduction />
+          <Interests />
+          <Work />
+          <Projects />
+          <Leadership />
+        </div>
       </div>
       <Footer />
     </div>
@@ -55,7 +57,7 @@ export default function App() {
       <Routes>
         <Route path="/*" element={<Navigate to="/" />} />
         <Route exact path="/" element={<Home />} />
-        <Route path="/resume" element={<RouteToResume resume_name="aavar_resume.pdf" />} />
+        <Route path="/resume" element={<RouteToResume resume_name="resume.pdf" />} />
         <Route exact path="/github" element={<RouteToGitHub />} />
         <Route exact path="/linkedin" element={<RouteToLinkedIn />} />
         <Route exact path="/instagram" element={<RouteToInstagram />} />

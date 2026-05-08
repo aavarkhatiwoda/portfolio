@@ -1,4 +1,28 @@
+@use './Components/Breakpoints' as breakpoints
+@use './Components/Constants' as constants
 @use './Components/Colors' as colors
+@use './Components/Fonts' as fonts
+
+.app_mainpage_nofooter_upper
+    width: 100vw
+    background: colors.$backgroundcolor5
+    box-sizing: border-box
+    @media screen and (min-width: breakpoints.$screensize8min)
+        padding: constants.$p8*3 constants.$p8*6
+    @media screen and (max-width: breakpoints.$screensize7)
+        padding: constants.$p7*3 constants.$p7*6
+    @media screen and (max-width: breakpoints.$screensize6)
+        padding: constants.$p6*3 constants.$p6*6
+    @media screen and (max-width: breakpoints.$screensize5)
+        padding: constants.$p5*3 constants.$p5*6
+    @media screen and (max-width: breakpoints.$screensize4)
+        padding: constants.$p4*3 constants.$p4*6
+    @media screen and (max-width: breakpoints.$screensize3)
+        padding: constants.$p3*2 constants.$p3*4
+    @media screen and (max-width: breakpoints.$screensize2)
+        padding: 0px
+    @media screen and (max-width: breakpoints.$screensize1)
+        padding: 0px
 
 .app_mainpage_nofooter
     background: colors.$backgroundcolor4

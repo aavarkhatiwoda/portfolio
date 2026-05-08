@@ -12,8 +12,8 @@ export const ProjectsCardsList = () => {
       image: PersonalProject,
       name: "Software Engineer Portfolio",
       technologies: ["ReactJS", "JSX", "Sass", "Netlify"],
-      description: window.location.host,
-      description2: "2020 - Present, Continuous Learning & Development",
+      company: window.location.host,
+      company_information: "2020 - Present, Continuous Learning & Development",
       link: "https://github.com/aavarkhatiwoda/portfolio",
       content: [
         "▸ Self-taught ReactJS developer with 5+ years of experience. Built custom professional software engineer\
@@ -26,8 +26,8 @@ export const ProjectsCardsList = () => {
       image: VirginiaTech,
       name: "Multimedia Web and Video Server",
       technologies: ["C"],
-      description: "CS 3214 - Computer Systems, Course Project",
-      description2: "Apr 2024 - May 2024",
+      company: "Computer Systems / Operating Systems, Course Project",
+      company_information: "Apr 2024 - May 2024",
       link: "https://cs.vt.edu",
       content: [
         "▸ Built a robust and tested multimedia server with multiple client support and protocol\
@@ -40,8 +40,8 @@ export const ProjectsCardsList = () => {
       image: VirginiaTech,
       name: "Job Control Shells",
       technologies: ["C"],
-      description: "CS 3214 - Computer Systems, Course Project",
-      description2: "Jan 2024 - Feb 2024",
+      company: "Computer Systems / Operating Systems, Course Project",
+      company_information: "Jan 2024 - Feb 2024",
       link: "https://cs.vt.edu",
       content: [
         "▸ Developed a Unix-based customizable shell with full capabilities of executing basic\
@@ -57,8 +57,8 @@ export const ProjectsCardsList = () => {
   ];
 
   return (
-    <div className="cardslist_toplevel">
-      <div className="cardslist">
+    <div className="cardslist_projects_toplevel">
+      <div className="cardslist_projects">
         {c.map((i) => {
           return <CardsListCards i={i} width={"100%"} />;
         })}
