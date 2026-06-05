@@ -1,0 +1,48 @@
+@use '../../Components/Breakpoints' as breakpoints
+@use '../../Components/Constants' as constants
+@use '../../Components/Colors' as colors
+@use '../../Components/Fonts' as fonts
+@use "sass:math"
+
+.introduction
+    @media screen and (min-width: breakpoints.$screensize8min)
+        padding: constants.$p8*4 0 0 0
+    @media screen and (max-width: breakpoints.$screensize7)
+        padding: constants.$p7*4 0 0 0
+    @media screen and (max-width: breakpoints.$screensize6)
+        padding: constants.$p6*4 0 0 0
+    @media screen and (max-width: breakpoints.$screensize5)
+        padding: constants.$p5*4 0 0 0
+    @media screen and (max-width: breakpoints.$screensize4)
+        padding: constants.$p4*4 0 constants.$p4*2 0
+    @media screen and (max-width: breakpoints.$screensize3)
+        padding: constants.$p3*4 0 constants.$p3*2 0
+    @media screen and (max-width: breakpoints.$screensize2)
+        padding: constants.$p2*4 0 constants.$p2*2 0
+    @media screen and (max-width: breakpoints.$screensize1)
+        padding: constants.$p1*4 0 constants.$p1*2 0
+    display: grid
+    @media screen and (min-width: breakpoints.$screensize4min)
+        grid-template-columns: repeat(1, 1fr)
+
+
+.introduction
+    text-align: center
+
+.introduction_name_svg
+    @media screen and (min-width: breakpoints.$screensize8min)
+        width: constants.$p8*36
+    @media screen and (max-width: breakpoints.$screensize7)
+        width: constants.$p7*36
+    @media screen and (max-width: breakpoints.$screensize6)
+        width: constants.$p6*36
+    @media screen and (max-width: breakpoints.$screensize5)
+        width: constants.$p5*36
+    @media screen and (max-width: breakpoints.$screensize4)
+        width: constants.$p4*36
+    @media screen and (max-width: breakpoints.$screensize3)
+        width: constants.$p3*24
+    @media screen and (max-width: breakpoints.$screensize2)
+        width: constants.$p2*24
+    @media screen and (max-width: breakpoints.$screensize1)
+        width: constants.$p1*24
