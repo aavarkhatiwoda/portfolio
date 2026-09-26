@@ -28,14 +28,16 @@ export const WorkCardsList = () => {
       company_information: "May 2024 - Present, Manassas, VA, Secret Clearance",
       link: "https://www.lockheedmartin.com/en-us/index.html",
       content: [
-        "▸ Provide full-lifecycle development, implementation, and maintenance of robust and scalable internal/client\
-        applications, and extend functionality of legacy tools.",
-        "▸ Lead new project of 10+ engineers and develop data transmission pipelines from specialized hardware to dedicated\
-        systems. Coordinate project architecture planning, and development story writing/execution over 6+ months. Configure\
-        network hardware and validate traffic through analyzing packet capture and replay.",
-        "▸ Promote system maintenance and uptime by developing and integrating Bash scripts to log and export critical tool\
-        output to aid in expedited detection and analysis of failing system processes. Promote robustness and modular scalability\
-        of system functions.",
+        "▸ Provide development, implementation, and maintenance of new robust program features,\
+        and extend functionality of legacy tools.",
+        "▸ Lead new research project of 10+ engineers to scale unmanned maritime defense over 10+\
+        months. Coordinate project planning and architecture design, validate hardware installs,\
+        and develop new software to create and maintain new data transmission pipelines from\
+        underwater sensors to secure systems.",
+        "▸ Promote robustness for system maintenance capabilities by developing Bash scripts to\
+        capture detailed script log output for key program applications. Provide export\
+        procedures/documentation for system logs, allowing developers to quickly detect and fix\
+        system failures.",
       ],
     },
     {
